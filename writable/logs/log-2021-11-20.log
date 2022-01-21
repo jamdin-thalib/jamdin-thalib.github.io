@@ -1,0 +1,395 @@
+CRITICAL - 2021-11-20 06:12:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:17:36 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:18:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:27:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:28:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:28:55 --> Invalid file: App\Views\admin\layout\header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(15): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:30:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:33:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:33:25 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:36:08 --> Invalid file: App\Views\admin\layout\header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(6): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:38:00 --> Invalid file: App\Views\admin\layout\header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(6): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:38:42 --> Invalid file: App\Views\admin\formhukum.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:39:25 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:40:41 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:45:34 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:45:38 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:47:43 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:48:10 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:48:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:49:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:50:50 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 06:51:25 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:55:23 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:55:46 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 06:57:21 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:03:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-20 07:13:31 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:13:40 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:14:00 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:15:16 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:17:56 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:18:39 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:20:12 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:22:20 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:22:24 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:22:34 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:23:29 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:16 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:17 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:25 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:26 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:35 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:25:43 --> Invalid file: App\Views\admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\admin...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('App\\Views\\admin...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('App\\Views\\admin...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:26:21 --> Invalid file: admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\hukumadmi...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukumadmi...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('admin\\hukumadmi...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:26:28 --> Invalid file: admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\hukumadmi...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukumadmi...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('admin\\hukumadmi...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:27:14 --> Invalid file: admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\hukumadmi...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukumadmi...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('admin\\hukumadmi...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-20 07:28:16 --> Call to undefined method CodeIgniter\View\Exceptions\ViewException::forInvalidFile()
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukumadmi...', Array, true)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('admin\\hukumadmi...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-20 07:30:58 --> Invalid file: admin\hukumadmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\hukumadmi...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukumadmi...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(7): view('admin\\hukumadmi...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

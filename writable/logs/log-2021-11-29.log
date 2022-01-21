@@ -1,0 +1,40 @@
+CRITICAL - 2021-11-29 20:50:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:51:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:51:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:51:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:51:31 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:51:37 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:52:25 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:57:37 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:58:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:59:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 20:59:25 --> Invalid file: admin\profil\profiladmin.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\profil\\pr...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\pr...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(58): view('admin\\profil\\pr...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->Profiladmin()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

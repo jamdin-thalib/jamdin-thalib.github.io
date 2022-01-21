@@ -1,0 +1,322 @@
+CRITICAL - 2021-11-12 19:34:09 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:35:10 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:35:14 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:37:51 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:37:54 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:37:57 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:45:02 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:54:58 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:54:59 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:55:03 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:55:45 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:55:47 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:55:50 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:56:43 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 19:56:48 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:03:24 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:12:42 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:13:03 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:13:12 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:13:20 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:14:20 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:14:56 --> Class 'App\Models\Berita_model' not found
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 20:15:08 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 20:15:41 --> Undefined variable: config
+#0 C:\xampp\htdocs\ci-4\app\Views\admin\layout\wrapper.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ci-4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#4 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(26): view('admin/layout/wr...')
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#6 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#7 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-12 20:16:49 --> Undefined variable: title
+#0 C:\xampp\htdocs\ci-4\app\Views\admin\layout\head.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci-4\app\Views\admin\layout\wrapper.php(6): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci-4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('admin/layout/wr...', Array, true)
+#5 C:\xampp\htdocs\ci-4\app\Controllers\Admin\Dasbor.php(26): view('admin/layout/wr...')
+#6 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\admin\Dasbor->index()
+#7 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dasbor))
+#8 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-12 21:19:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php:235
+Stack trace:
+#0 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(235): include()
+#2 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-12 21:19:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php:235
+Stack trace:
+#0 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(235): include()
+#2 C:\xampp\htdocs\ci-4\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-12 21:29:00 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:29:31 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:30:41 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:30:42 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:30:43 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-12 21:30:48 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:33:50 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:33:51 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:34:39 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:35:30 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:36:02 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:36:33 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:38:34 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:40:23 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:40:24 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-12 21:40:29 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}

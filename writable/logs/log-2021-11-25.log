@@ -1,0 +1,32 @@
+ERROR - 2021-11-25 02:46:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-25 02:46:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-11-25 18:52:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-25 18:52:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

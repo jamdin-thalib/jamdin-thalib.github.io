@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-04 23:33:30 --> Invalid file: backend.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend.php')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Loginadmin.php(8): view('backend')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Loginadmin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loginadmin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

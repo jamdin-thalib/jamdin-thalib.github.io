@@ -1,0 +1,37 @@
+CRITICAL - 2021-11-28 02:51:36 --> Too few arguments to function App\Controllers\Admin\Hukumadmin::update_hukum(), 0 passed in C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->update_hukum()
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-28 02:53:46 --> Too few arguments to function App\Controllers\Admin\Hukumadmin::update_hukum(), 0 passed in C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->update_hukum()
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-28 02:55:37 --> Too few arguments to function App\Controllers\Admin\Hukumadmin::update_hukum(), 0 passed in C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->update_hukum()
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-28 02:57:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->save()
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-28 02:58:17 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

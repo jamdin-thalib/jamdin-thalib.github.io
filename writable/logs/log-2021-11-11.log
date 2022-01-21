@@ -1,0 +1,41 @@
+CRITICAL - 2021-11-11 00:17:10 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci-4\app\Config\Routes.php on line 36 and at least 2 expected
+#0 C:\xampp\htdocs\ci-4\app\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get('web/struktur')
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(689): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 00:17:26 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci-4\app\Config\Routes.php on line 36 and at least 2 expected
+#0 C:\xampp\htdocs\ci-4\app\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get('web/struktur')
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(689): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 00:17:27 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci-4\app\Config\Routes.php on line 36 and at least 2 expected
+#0 C:\xampp\htdocs\ci-4\app\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get('web/struktur')
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(689): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 06:20:44 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci-4\app\Config\Routes.php on line 35 and at least 2 expected
+#0 C:\xampp\htdocs\ci-4\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->get('web/profil', 'P...')
+#1 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(689): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-11 08:20:01 --> Invalid file: duk.php
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('duk.php')
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('duk', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Duk.php(3): view('duk')
+#3 C:\xampp\htdocs\ci-4\system\Router\Router.php(491): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci-4\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('duk')
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('duk')
+#6 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

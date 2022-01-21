@@ -1,0 +1,30 @@
+CRITICAL - 2021-12-01 16:40:52 --> Invalid file: admin\profil\editor.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\profil\\ed...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\ed...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(59): view('admin\\profil\\ed...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->Profiladmin()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-01 16:43:21 --> Invalid file: admin\profil\editor.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\profil\\ed...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\ed...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(59): view('admin\\profil\\ed...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->Profiladmin()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-01 16:43:51 --> Invalid file: admin\profil\editor.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin\\profil\\ed...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\ed...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(64): view('admin\\profil\\ed...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->Editor()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

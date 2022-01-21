@@ -1,0 +1,475 @@
+CRITICAL - 2021-11-16 00:41:07 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:41:37 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:41:38 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:41:48 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:44:11 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:44:38 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:45:11 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:45:14 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:45:29 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:45:32 --> Class 'App\Controllers\Admin\Controller' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:46:04 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:46:44 --> Class 'App\Controllers\Admin\admin' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:47:16 --> Class 'App\Controllers\Admin\Hukumadmin' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:47:17 --> Class 'App\Controllers\Admin\Hukumadmin' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:47:18 --> Class 'App\Controllers\Admin\Hukumadmin' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:47:36 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 00:59:56 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:00:57 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:00:58 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:01 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:42 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:43 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:52 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:53 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:01:57 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:03:29 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:04:19 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:04:55 --> Class 'App\Controllers\Admin\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:06:03 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:06:07 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:06:16 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:06:45 --> Class 'App\Controllers\BaseControler' not found
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/hukumadmi...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/hukumadmi...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-16 01:10:36 --> Invalid file: admin/ayout/foteradmin.php
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ayout/fot...')
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin/ayout/fot...', Array, true)
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(11): view('admin/ayout/fot...')
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-16 02:20:31 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 02:21:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 02:22:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 02:24:32 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 05:04:14 --> Undefined variable: modal_title
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 05:04:44 --> Undefined variable: action
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 05:04:58 --> Undefined variable: btn
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 05:05:11 --> Undefined variable: btn
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 05:05:26 --> Undefined variable: btn
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 05:05:29 --> Undefined variable: btn
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 06:54:25 --> Undefined variable: hukum
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 06:55:11 --> Undefined variable: hukum
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 06:55:51 --> Undefined variable: no
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 06:56:03 --> Undefined variable: row
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Views\admin\hukum\hukumadmin.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\hukum\\huk...', Array, true)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Hukumadmin.php(10): view('admin\\hukum\\huk...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Hukumadmin->index()
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Hukumadmin))
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-16 07:12:14 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\pegawai\\p...', Array, true)
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Pegawaiadmin.php(10): view('admin\\pegawai\\p...')
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin\Pegawaiadmin->index()
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pegawaiadmin))
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-16 08:39:28 --> syntax error, unexpected '$komik' (T_VARIABLE), expecting ']'
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('komik')
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('komik')
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 20:58:36 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\pr...', Array, true)
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Profiladmin.php(5): view('admin\\profil\\pr...')
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/profiladm...')
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/profiladm...')
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-16 20:59:07 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('admin\\profil\\pr...', Array, true)
+#3 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\app\Controllers\Admin\Profiladmin.php(5): view('admin\\profil\\pr...')
+#4 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(491): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/profiladm...')
+#6 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/profiladm...')
+#7 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#8 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\dikominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

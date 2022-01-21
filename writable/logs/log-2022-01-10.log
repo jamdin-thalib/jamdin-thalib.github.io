@@ -1,0 +1,70 @@
+CRITICAL - 2022-01-10 02:47:53 --> Invalid file: backend/admin-index.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin-i...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/admin-i...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Backend.php(8): view('backend/admin-i...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Backend->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 19:29:02 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 19:31:10 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 19:31:11 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 19:31:36 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 20:02:54 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-10 20:05:03 --> Invalid file: seleksi/layout/header.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seleksi/layout/...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Common.php(1092): CodeIgniter\View\View->render('seleksi/layout/...', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\app\Controllers\Home.php(51): view('seleksi/layout/...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab1.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

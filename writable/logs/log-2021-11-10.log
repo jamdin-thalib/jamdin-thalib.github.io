@@ -1,0 +1,71 @@
+CRITICAL - 2021-11-10 00:41:26 --> Invalid file: index.html
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('index.html', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('index.html')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 00:55:16 --> Invalid file: index.html
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('index.html', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('index.html')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 01:43:48 --> Invalid file: index.php
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 02:04:51 --> syntax error, unexpected 'assets' (T_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 02:07:06 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 18:59:10 --> Invalid file: indeks.php
+#0 C:\xampp\htdocs\ci-4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indeks.php')
+#1 C:\xampp\htdocs\ci-4\system\Common.php(1092): CodeIgniter\View\View->render('indeks', Array, true)
+#2 C:\xampp\htdocs\ci-4\app\Controllers\Home.php(9): view('indeks')
+#3 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-10 19:03:22 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ci-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci-4\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
