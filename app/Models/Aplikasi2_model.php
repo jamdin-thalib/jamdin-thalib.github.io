@@ -6,14 +6,14 @@ class Aplikasi2_model extends Model
 
 { 
     protected $table = 'aplikasi2';
-    
+    protected $allowedFields = ['nama_aplikasi2','penggagas2','manual_book2','file_aplikasi2','jenis_aplikasi2','bahasa_pemograman2','status_aplikasi2','deskripsi_aplikasi2'];
     // datatables
     private function _get_datatables_query(){
-        $column_order = array('nama_aplikasi2.aplikasi2','penggagas2.aplikasi2','manual_book2.aplikasi2','jenis_aplikasi2.aplikasi2','bahasa_pemograman2.aplikasi2',null);
-        $column_search = array('nama_aplikasi2.aplikasi2','penggagas2.aplikasi2','manual_book2.aplikasi2','jenis_aplikasi2.aplikasi2','bahasa_pemograman2.aplikasi2');
+        $column_order = array('aplikasi2.nama_aplikasi2','aplikasi2.penggagas2','aplikasi2.manual_book2','aplikasi2.jenis_aplikasi2','aplikasi2.bahasa_pemograman2',null);
+        $column_search = array('aplikasi2.nama_aplikasi2','aplikasi2.penggagas2','aplikasi2.manual_book2','aplikasi2.jenis_aplikasi2','aplikasi2.bahasa_pemograman2');
         $orders = array('id' => 'asc');
 
-        $this->db->table('aplikasi1');
+        $this->db->table('aplikasi2');
         //add this line for join
         //$this->db->join('table2', 'kcb_jekel.field = table2.field');
         //add this if join more two table

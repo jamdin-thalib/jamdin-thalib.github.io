@@ -1,4 +1,7 @@
-<!-- Footer Area -->
+    <div id="spinner" style="position:fixed; top: 50%; left: 50%; margin-left: -50px; margin-top: -50px;z-index: 999999;display: none;">
+        <span>Sabar.. Tunggu Sadiki...</span>
+        <img src="<?= base_url('assets/img/sprite.png');?>" />
+    </div>
 		<footer id="footer" class="footer section">
 			<!-- Footer Top -->
 			<div class="footer-top">
@@ -79,7 +82,7 @@
 																	</td>
 																	<td>
 																		<div class="contact">
-																			<p class="mail-add"><i class="fa fa-envelope-o" aria-hidden="true"></i>prita.ponpgoa@gmail.com</p>
+																			<p class="mail-add"><i class="fa fa-envelope-o" aria-hidden="true"></i>prita.ponongoa@gmail.com</p>
 																		</div>
 																	</td>
 																	<td>
@@ -96,7 +99,7 @@
 																	</td>
 																	<td>
 																		<div class="contact">
-																			<p class="mail-add"><i class="fa fa-envelope-o" aria-hidden="true"></i>jawahir.pohontu@mail.go.id</p>
+																			<p class="mail-add"><i class="fa fa-envelope-o" aria-hidden="true"></i>jawahir.ahmat.pohontu@mail.go.id</p>
 																		</div>
 																	</td>
 																	<td>
@@ -190,67 +193,194 @@
 			</div>
 			<!--/ End Copyright -->
 		</footer>
-		<!--/ End Footer Area -->
-			
-		
         <script src="<?php echo base_url('assets/seleksi/js/jquery.min.js')?>"></script>
         <script src="<?php echo base_url('assets/seleksi/js/bootstrap.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/colors.js')?>"></script>
         <script src="<?php echo base_url('assets/seleksi/js/jquery.nav.js')?>"></script>
         <script src="<?php echo base_url('assets/seleksi/js/jquery.scrollUp.min.js')?>"></script>
         <script src="<?php echo base_url('assets/seleksi/js/jquery.slicknav.min.js')?>"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
         <script src="<?php echo base_url('assets/seleksi/js/owl.carousel.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/isotope.pkgd.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/wow.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/jquery.stellar.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/jquery.magnific-popup.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/animate-text.js')?>"></script>
-		<script src="<?php echo base_url('assets/seleksi/js/particles.min.js')?>"></script>
-		<script src="<?php echo base_url('assets/seleksi/js/particle-code.js')?>"></script>
-		<script src="<?php echo base_url('assets/seleksi/js/jquery.counterup.min.js')?>"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
-        <script type="text/javascript" src="<?php echo base_url('assets/seleksi/js/gmaps.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/seleksi/js/main.js')?>"></script>
-	
-	<!-- jquery
-	============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/jquery.meanmenu.js')?>"></script>
-    
-    <script src="<?php echo base_url('assets/backend/js/metisMenu/metisMenu.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/backend/js/metisMenu/metisMenu-active.js')?>"></script>
-    
-	
-    
-    <!-- chosen JS
-		============================================ -->
-    
-    <!-- select2 JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/select2/select2.full.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/backend/js/select2/select2-active.js')?>"></script>
-    <!-- ionRangeSlider JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/ionRangeSlider/ion.rangeSlider.min.js')?>"></script>
-    <script src="js/ionRangeSlider/ion.rangeSlider.active.js"></script>
-    <!-- rangle-slider JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/rangle-slider/jquery-ui-1.10.4.custom.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/backend/js/rangle-slider/jquery-ui-touch-punch.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/backend/js/rangle-slider/rangle-active.js')?>"></script>
-    <!-- knob JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/knob/jquery.knob.js')?>"></script>
-    <script src="<?php echo base_url('assets/backend/js/knob/knob-active.js')?>"></script>
-    <!-- tab JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/tab.js')?>"></script>
-    <!-- plugins JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/plugins.js')?>"></script>
-    <!-- main JS
-		============================================ -->
-    <script src="<?php echo base_url('assets/backend/js/main.js')?>"></script>
+        <script src="<?= base_url('assets/backend/sweetalert2/sweetalert2.all.min.js'); ?>"></script>
+    <script src="<?= base_url('assets/backend/validator.js')?>"></script>
+    <script>
+        const user_id = '<?= isset($get->id) ? $get->id : 0; ?>';
+        // window.addEventListener('load', function(){
+        //     //kaseMuncul(user_id);
+        // });
+        $(document).bind("ajaxSend", function() {
+            $("#spinner").show();
+        }).bind("ajaxStop", function() {
+            $("#spinner").hide();
+        });
+        $('#pendaftaran').on('blur', 'input[required], input.optional, select.required', validator.checkField).on('change', 'select.required', validator.checkField).on('keypress', 'input[required][pattern]', validator.keypress);
+        $('.multi.required').on('keyup blur', 'input', function() {
+            validator.checkField.apply($(this).siblings().last()[0]);
+        });
+        $('#pendaftaran').submit(function(e) {
+            e.preventDefault();
+            if (!validator.checkAll($(this))) {
+                false;
+            } else {
+                $.ajax({
+                    url: $(this).attr("action"),
+                    type: 'post',
+                    data: $(this).serialize()
+                    ,success: function(response) {
+                        var data = $.parseJSON(response);
+                        swal.fire({
+                            position: 'top',
+                            icon    :data.type,
+                            title   :data.title,
+                            html    :data.text,
+                            showConfirmButton: false,
+                            timer   : 1500
+                        }).then((result) => {
+                            if(data.type == 'success'){
+                                window.location.replace('<?= site_url('home/pendaftaran') ?>');
+                            }
+                        });
+                    },
+                    error: function(jqXHR, exception, thrownError) {
+                        swal.fire({
+                            title: "Error code" + jqXHR.status,
+                            html: thrownError + ", " + exception,
+                            icon: "error"
+                        }).then((result) => {
+                            $("#spinner").hide();
+                        });
+                    }
+                });
+            }
+        });
 
-
+        //upload file
+        $('.upload_file').change(function(e) {
+            e.preventDefault();
+            var tipe = $(this).attr('tipe');
+            var id_file = $(this).attr('id_file');
+            var persya_id = $(this).attr('persya_id');
+            files = e.target.files;
+            var file = files[0];
+            var data = new FormData();
+            data.append('file', file, file.name);
+            data.append('tipe', tipe);
+            data.append('id_file', id_file);
+            data.append('persya_id', persya_id);
+            $.ajax({
+                url: $('#form_upload').attr("action"),
+                type: 'post',
+                data: data,
+                processData: false,
+                contentType: false,
+                cache: false,
+                async: false,
+                success: function(response) {
+                    var data = $.parseJSON(response);
+                    swal.fire({
+                        position: 'top',
+                        icon    :data.type,
+                        title   :data.title,
+                        html    :data.text,
+                        showConfirmButton: true,
+                        //timer   : 1500
+                    }).then((result) => {
+                        if(data.type == 'success'){
+                            //kaseMuncul(user_id)
+                            window.location.replace('<?= site_url('home/pendaftaran') ?>');
+                        }
+                    });
+                },
+                error: function(jqXHR, exception, thrownError) {
+                    swal.fire({
+                        title: "Error code" + jqXHR.status,
+                        html: thrownError + ", " + exception,
+                        icon: "error"
+                    }).then((result) => {
+                        $("#spinner").hide();
+                    });
+                }
+            });
+        });
+        // function kaseMuncul(id) { 
+        //     $.ajax({
+        //         url: '<?//= site_url('home/kasemuncul/'); ?>'+id,
+        //         type: 'get',
+        //         success: function(response) {
+        //             $('.kase-muncul').html(response);
+        //         },error: function(jqXHR, exception, thrownError) {
+        //             swal.fire({
+        //                 title: "Error code" + jqXHR.status,
+        //                 html: thrownError + ", " + exception,
+        //                 icon: "error"
+        //             }).then((result) => {
+        //                 $("#spinner").hide();
+        //             });
+        //         }
+        //     });
+        // }
+        function klik(url){
+            swin = window.open(url,'win','scrollbars,width=1000,height=600,top=80,left=140,status=yes,toolbar=no,menubar=yes,location=no');
+            swin.focus();
+        }
+        $('.finalisasi').click(function (e) { 
+            e.preventDefault();
+            //const id = $(this).attr('user_id');
+            Swal.fire({
+                title: 'Anda Yakin..? , Data Tidak Akan Dapat Diubah Bila Telah Melakukan Submit Pendaftaran.',
+                showDenyButton: true,
+                showCancelButton: false,
+                confirmButtonText: 'Finalisasi',
+                denyButtonText: `Batal`,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '<?= site_url('backend/pendaftaran/finalisasi/'); ?>'+user_id,
+                        type: 'get',
+                        success: function(response) {
+                            Swal.fire('Saved!', '', 'success')
+                            window.location.replace('<?= site_url('home/pendaftaran') ?>');
+                        },error: function(jqXHR, exception, thrownError) {
+                            swal.fire({
+                                title: "Error code" + jqXHR.status,
+                                html: thrownError + ", " + exception,
+                                icon: "error"
+                            }).then((result) => {
+                                $("#spinner").hide();
+                            });
+                        }
+                    });
+                } else if (result.isDenied) {
+                    Swal.fire('Anda Membatalkan Submit Pendaftaran, Lakukan Submit Pendaftaran Untuk Dapat Mencetak Bukti Pendaftaran.', '', 'info')
+                }
+            })
+        });
+        const countDownDate = <?= strtotime('05-02-2022 23:59:59') ?> * 1000;
+        var timeNow = <?php print(time()) ?> * 1000;
+        // Every second, the countdown will be updated.
+        let i = setInterval(function() {
+            timeNow = timeNow + 1000;
+    // Calculate the time between now and the end of the countdown.
+            let dist = countDownDate - timeNow;
+    // Calculate the number of days, hours, minutes, and seconds in days, hours, minutes, and seconds.
+            let numOfDays = Math.floor(dist / (1000 * 60 * 60 * 24));
+            let hr = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let min = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
+            let sec = Math.floor((dist % (1000 * 60)) / 1000);
+    // Put the result in an element with the id="timer" attribute.
+            document.getElementById("timer").innerHTML = "Waktu Pendaftaran Tersisa " +numOfDays + " hari " + hr + " jam " +min + "m " + sec + "s ";
+            <?php if(time() * 1000 < strtotime('01-02-2022 22:00:00')){ ?>
+                document.getElementById("timer").innerHTML = "Pendaftaran Dimulai Pada Tanggal 01-02-2022";
+            <?php }else{ ?>
+            if (dist < 0) {
+                clearInterval(i);
+                document.getElementById("timer").innerHTML = "Pendaftaran Telah Berakhir.";
+            }
+            <?php } ?>
+        }, 1000);
+    </script>
 </html>

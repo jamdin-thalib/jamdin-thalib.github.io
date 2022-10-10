@@ -49,10 +49,17 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>RKA List</h4>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>....!</strong> Successful or positive action.</p>
+                                                            </div>
                                                             <div class="add-product">
                                                                 <a href="<?php echo base_url('backend/dpa_admin/rka')?>">Add RKA</a>
                                                             </div>
-                                                            <table>
+                                                            <table border="1" width="50%" id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>No</th>
@@ -64,16 +71,16 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($rka as $rka) { ?>
+                                                                    <?php $no=1; foreach($rka as $row) { ?>
                                                                     <tr>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $rka['tgl_pengesahan_rka'] ?></td>
-                                                                        <td class="text-center"><?php echo $rka['nama_dok_rka'] ?></td>
-                                                                        <td class="text-center"><?php echo $rka['file_rka'] ?></td>
-                                                                        <td class="text-center"><?php echo $rka['uraian_rka'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_pengesahan_rka'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_dok_rka'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['file_rka'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['uraian_rka'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/edit_rka/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/hapus_rka/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>
@@ -103,10 +110,17 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>DPA List</h4>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>....!</strong> Successful or positive action.</p>
+                                                            </div>
                                                             <div class="add-product">
                                                                 <a href="<?php echo base_url('backend/dpa_admin/dpa')?>">Add DPA</a>
                                                             </div>
-                                                            <table>
+                                                            <table border="1" width="50%" id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>No</th>
@@ -118,16 +132,16 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($dpa as $dpa) { ?>
+                                                                    <?php $no=1; foreach($dpa as $row) { ?>
                                                                     <tr>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $dpa['tgl_pengesahan_dpa'] ?></td>
-                                                                        <td class="text-center"><?php echo $dpa['nama_dok_dpa'] ?></td>
-                                                                        <td class="text-center"><?php echo $dpa['file_dpa'] ?></td>
-                                                                        <td class="text-center"><?php echo $dpa['uraian_dpa'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_pengesahan_dpa'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_dok_dpa'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['file_dpa'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['uraian_dpa'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/edit_dpa/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/hapus_dpa/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>
@@ -157,10 +171,17 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>RFK List</h4>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>....!</strong> Successful or positive action.</p>
+                                                            </div>
                                                             <div class="add-product">
                                                                 <a href="<?php echo base_url('backend/dpa_admin/rfk')?>">Add RFK</a>
                                                             </div>
-                                                            <table>
+                                                            <table border="1" width="50%" id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>No</th>
@@ -172,16 +193,16 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($rfk as $rfk) { ?>
+                                                                    <?php $no=1; foreach($rfk as $row) { ?>
                                                                     <tr>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $rfk['tgl_pengesahan_rfk'] ?></td>
-                                                                        <td class="text-center"><?php echo $rfk['nama_dok_rfk'] ?></td>
-                                                                        <td class="text-center"><?php echo $rfk['file_rfk'] ?></td>
-                                                                        <td class="text-center"><?php echo $rfk['uraian_rfk'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_pengesahan_rfk'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_dok_rfk'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['file_rfk'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['uraian_rfk'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/edit_rfk/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/dpa_admin/hapus_rfk/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>

@@ -1,0 +1,167 @@
+CRITICAL - 2022-02-03 06:45:43 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 06:46:04 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 06:47:12 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 08:05:30 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 08:05:57 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 11:48:34 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 11:50:01 --> readfile(./pdf/1643811233_cb03851a32a51b7df984.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(./pdf/...', '/var/www/diskom...', 167, Array)
+#1 /var/www/diskominfo/app/Controllers/Home.php(167): readfile('./pdf/164381123...')
+#2 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf', '1643811233_cb03...')
+#3 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 11:50:09 --> readfile(./pdf/1643811233_cb03851a32a51b7df984.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(./pdf/...', '/var/www/diskom...', 167, Array)
+#1 /var/www/diskominfo/app/Controllers/Home.php(167): readfile('./pdf/164381123...')
+#2 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf', '1643811233_cb03...')
+#3 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 12:57:25 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:23:33 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 13:52:29 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 13:52:35 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 13:52:55 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 14:04:51 --> Undefined variable: action
+#0 /var/www/diskominfo/app/Views/backend/pegawai/input_ptt.php(383): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 383, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/pegawai...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pegawai.php(34): view('backend/pegawai...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pegawai->ptt()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pegawai))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-03 16:11:00 --> Column 'jenis_kelamin' cannot be null
+CRITICAL - 2022-02-03 16:11:00 --> Column 'jenis_kelamin' cannot be null
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /var/www/diskominfo/app/Models/Pegawai_Model_Ptt.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/diskominfo/app/Controllers/Backend/Pegawai.php(82): App\Models\Pegawai_Model_Ptt->tambah(Array)
+#6 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pegawai->save_ptt()
+#7 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pegawai))
+#8 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-03 16:18:32 --> Column 'tahun_terangkat' cannot be null
+CRITICAL - 2022-02-03 16:18:32 --> Column 'tahun_terangkat' cannot be null
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /var/www/diskominfo/app/Models/Pegawai_Model_Ptt.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/diskominfo/app/Controllers/Backend/Pegawai.php(82): App\Models\Pegawai_Model_Ptt->tambah(Array)
+#6 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pegawai->save_ptt()
+#7 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pegawai))
+#8 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-03 16:19:41 --> Column 'tahun_terangkat' cannot be null
+CRITICAL - 2022-02-03 16:19:41 --> Column 'tahun_terangkat' cannot be null
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 /var/www/diskominfo/app/Models/Pegawai_Model_Ptt.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/diskominfo/app/Controllers/Backend/Pegawai.php(82): App\Models\Pegawai_Model_Ptt->tambah(Array)
+#6 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pegawai->save_ptt()
+#7 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pegawai))
+#8 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 16:26:27 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:38:03 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 20:03:27 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

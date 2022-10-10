@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Maruti Admin</title><meta charset="UTF-8" />
+        <title>Admin Kominfo</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="<?php echo base_url('assets/admin/css/bootstrap.min.css')?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/admin/css/bootstrap-responsive.min.css')?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/admin/css/maruti-login.css')?>" />
     </head>
     <body>
-        <div id="loginbox">            
+        <div id="loginbox">
             <form id="loginform" class="form-vertical" action="index.html">
                 <div class="control-group normal_text"> <h3><img src="<?php echo base_url('assets/img/logokominfo.png')?>" alt="Logo" /></h3>
                     <p>LOGIN ADMIN</p>

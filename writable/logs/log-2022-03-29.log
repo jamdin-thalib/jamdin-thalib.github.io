@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-29 09:54:47 --> Undefined variable: bolmut
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\aptika\aptika.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\web\\...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(91): view('\\App\\Views\\web\\...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->aptika()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

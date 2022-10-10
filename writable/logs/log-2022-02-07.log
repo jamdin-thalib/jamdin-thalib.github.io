@@ -1,0 +1,64 @@
+CRITICAL - 2022-02-07 09:35:19 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 10:08:33 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 10:11:15 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 16:27:25 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 16:27:34 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 16:27:36 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 17:24:00 --> Undefined property: App\Controllers\Backend\Pendaftaran::$input
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/diskom...', 309, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->verifikasi('28')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 17:25:02 --> Illegal string offset 'type'
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/diskom...', 311, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->verifikasi('28')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,626 @@
+CRITICAL - 2022-01-24 00:02:27 --> Invalid file: web/login.php
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/login.php')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/login', Array, true)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Admin.php(9): view('web/login')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-24 00:17:29 --> Undefined variable: action
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\input_domain_bolmut.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(139): view('backend/domain/...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->Bolmut()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 00:22:23 --> Undefined variable: action
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\input_domain_bolmut.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(140): view('backend/domain/...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->Bolmut()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 00:33:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 00:35:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 00:37:58 --> Undefined variable: success
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 00:38:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-24 02:58:50 --> Column 'nama_subdomain' cannot be null
+CRITICAL - 2022-01-24 02:58:50 --> Column 'nama_subdomain' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(87): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 03:01:52 --> Column 'status_domain' cannot be null
+CRITICAL - 2022-01-24 03:01:52 --> Column 'status_domain' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(86): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 03:02:57 --> Column 'deskripsi' cannot be null
+CRITICAL - 2022-01-24 03:02:57 --> Column 'deskripsi' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(86): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 03:03:42 --> Undefined variable: bolmut
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\domain_bolmut.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(97): view('backend/domain/...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 03:04:21 --> Undefined variable: bolmut
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\domain_bolmut.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(97): view('backend/domain/...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 03:06:08 --> Undefined variable: bolmut
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\domain_bolmut.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(97): view('backend/domain/...')
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 03:23:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(97): redirect('backend/domain_...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-24 03:56:06 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 05:56:17 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 05:58:07 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 05:58:09 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 06:01:04 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 06:02:49 --> Undefined index: nama_subdomain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\web\domain.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/domain', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(88): view('web/domain', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->domain()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 06:06:45 --> Undefined index: nama_domain
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\domain\domain_bolmut.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/domain/...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(23): view('backend/domain/...', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->index()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-24 06:09:45 --> Unknown column 'nama_domain' in 'field list'
+CRITICAL - 2022-01-24 06:09:45 --> Unknown column 'nama_domain' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `domain_...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `domain_...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `domain_...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `domain_...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(72): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(116): App\Models\Domainbolmut_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:10:30 --> Unknown column 'nama_domain' in 'field list'
+CRITICAL - 2022-01-24 06:10:30 --> Unknown column 'nama_domain' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `domain_...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `domain_...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `domain_...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `domain_...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(72): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(116): App\Models\Domainbolmut_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:10:33 --> Unknown column 'nama_domain' in 'field list'
+CRITICAL - 2022-01-24 06:10:33 --> Unknown column 'nama_domain' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `domain_...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `domain_...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `domain_...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `domain_...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(72): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(116): App\Models\Domainbolmut_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:10:42 --> Unknown column 'nama_domain' in 'field list'
+CRITICAL - 2022-01-24 06:10:42 --> Unknown column 'nama_domain' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `domain_...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `domain_...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `domain_...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `domain_...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(72): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(116): App\Models\Domainbolmut_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:44:25 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 06:44:25 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:49:04 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 06:49:04 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:49:07 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 06:49:07 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:49:30 --> Column 'masa_aktif' cannot be null
+CRITICAL - 2022-01-24 06:49:30 --> Column 'masa_aktif' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domaindesa_model.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(185): App\Models\Domaindesa_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_desa()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:51:51 --> Column 'masa_aktif' cannot be null
+CRITICAL - 2022-01-24 06:51:51 --> Column 'masa_aktif' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domaindesa_model.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(185): App\Models\Domaindesa_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_desa()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:51:59 --> Column 'masa_aktif' cannot be null
+CRITICAL - 2022-01-24 06:51:59 --> Column 'masa_aktif' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domaindesa_model.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(185): App\Models\Domaindesa_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_desa()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 06:55:06 --> Column 'masa_aktif' cannot be null
+CRITICAL - 2022-01-24 06:55:06 --> Column 'masa_aktif' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domaindesa_model.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(185): App\Models\Domaindesa_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_desa()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 15:56:18 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 15:56:18 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 16:04:21 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 16:04:21 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 16:08:43 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 16:08:43 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 16:10:07 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 16:10:07 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 16:13:37 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 16:13:37 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 16:14:12 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 16:14:12 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 17:51:34 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 17:51:34 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 17:51:50 --> Column 'tgl_pembuatan' cannot be null
+CRITICAL - 2022-01-24 17:51:50 --> Column 'tgl_pembuatan' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Domainbolmut_model.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Domain_bolmut.php(106): App\Models\Domainbolmut_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Domain_bolmut->save_bolmut()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Domain_bolmut))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 17:58:04 --> Undefined index: file_manual_book1
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\aplikasi\aplikasi_admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/aplikas...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(22): view('backend/aplikas...', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->index()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 17:59:01 --> Undefined variable: row
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Views\backend\aplikasi\aplikasi_admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/aplikas...', Array, true)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(22): view('backend/aplikas...', Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->index()
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-24 18:12:17 --> Column 'nama_aplikasi1' cannot be null
+CRITICAL - 2022-01-24 18:12:17 --> Column 'nama_aplikasi1' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ap...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi1_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(75): App\Models\Aplikasi1_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_umum()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 18:15:09 --> Column 'nama_aplikasi1' cannot be null
+CRITICAL - 2022-01-24 18:15:09 --> Column 'nama_aplikasi1' cannot be null
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ap...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi1_model.php(70): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(75): App\Models\Aplikasi1_model->tambah(Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_umum()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 21:37:38 --> Unknown column 'nama_aplikasi2' in 'field list'
+CRITICAL - 2022-01-24 21:37:38 --> Unknown column 'nama_aplikasi2' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `aplikas...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `aplikas...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `aplikas...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `aplikas...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi1_model.php(76): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(155): App\Models\Aplikasi1_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_khusus()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 21:42:05 --> Unknown column 'nama_aplikasi2' in 'field list'
+CRITICAL - 2022-01-24 21:42:05 --> Unknown column 'nama_aplikasi2' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `aplikas...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `aplikas...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `aplikas...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `aplikas...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi1_model.php(76): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(155): App\Models\Aplikasi1_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_khusus()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 21:45:11 --> Unknown column 'nama_aplikasi2' in 'field list'
+CRITICAL - 2022-01-24 21:45:11 --> Unknown column 'nama_aplikasi2' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `aplikas...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `aplikas...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `aplikas...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `aplikas...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi1_model.php(76): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(155): App\Models\Aplikasi1_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_khusus()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 21:47:05 --> Unknown column 'file_manualbook2' in 'field list'
+CRITICAL - 2022-01-24 21:47:05 --> Unknown column 'file_manualbook2' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `aplikas...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `aplikas...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `aplikas...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `aplikas...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi2_model.php(76): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(156): App\Models\Aplikasi2_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_khusus()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 21:47:31 --> Unknown column 'file_manualbook2' in 'field list'
+CRITICAL - 2022-01-24 21:47:31 --> Unknown column 'file_manualbook2' in 'field list'
+#0 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `aplikas...')
+#1 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `aplikas...')
+#2 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `aplikas...')
+#3 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `aplikas...', Array, false)
+#4 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Models\Aplikasi2_model.php(76): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Aplikasi.php(156): App\Models\Aplikasi2_model->ubah('1', Array)
+#6 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Aplikasi->save_khusus()
+#7 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Aplikasi))
+#8 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

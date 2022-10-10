@@ -34,14 +34,10 @@ $routes->setAutoRoute(true);
 
 // Website
 $routes->get('/', 'Home::index');
-$routes->get('/', 'backend/Backend::admin-index');
+$routes->get('admin', 'Backend/Admin::index');
 
-$routes->get('Backend', 'Backend::admin-index');
-
-// $routes->get('admin', 'Admin::profiladmin');
-
-/* $routes->get('web', 'Profil::profil');
-$routes->get('web', 'Struktur::struktur');
+$routes->get('seleksi', 'Home::layanan');
+/* $routes->get('web', 'Struktur::struktur');
 $routes->get('web', 'Dpa::dpa');
 $routes->get('web', 'Duk::duk');
 $routes->get('web', 'Hukum::hukum');

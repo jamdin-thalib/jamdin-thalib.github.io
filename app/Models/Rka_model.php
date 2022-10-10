@@ -6,12 +6,12 @@ class Rka_model extends Model
 
 { 
     protected $table = 'tabel_rka';
-    
+    protected $allowedFields = ['tgl_pengesahan_rka','nama_dok_rka','file_rka','uraian_rka'];
     // datatables
     private function _get_datatables_query()
 	{
-        $column_order = array('tgl_pengesahan_rka.tabel_rka','nama_dok_rka.tabel_rka','file_rka.tabel_rka','uraian_rka.tabel_rka',null);
-        $column_search = array('tgl_pengesahan_rka.tabel_rka','nama_dok_rka.tabel_rka','file_dpa.tabel_rka','uraian_rka.tabel_rka',null);
+        $column_order = array('tabel_rka.tgl_pengesahan_rka','tabel_rka.nama_dok_rka','tabel_rka.file_rka','tabel_rkauraian_rka',null);
+        $column_search = array('tabel_rka.tgl_pengesahan_rka','tabel_rka.nama_dok_rka','tabel_rka.file_rka','tabel_rkauraian_rka',null);
         $orders = array('id' => 'asc');
 
         $this->db->table('tabel_rka');

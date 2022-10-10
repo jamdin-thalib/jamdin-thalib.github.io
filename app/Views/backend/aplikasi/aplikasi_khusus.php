@@ -1,35 +1,6 @@
 
-            <!-- Mobile Menu end -->
-            <!-- <div class="breadcome-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="breadcome-list single-page-breadcome">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <div class="breadcome-heading">
-                                            <form role="search" class="">
-                                                <input type="text" placeholder="Search..." class="form-control">
-                                                <a href=""><i class="fa fa-search"></i></a>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <ul class="breadcome-menu">
-                                            <li><a href="#">Home</a> <span class="bread-slash">/</span>
-                                            </li>
-                                            <li><span class="bread-blod">Product Edit</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Single pro tab start-->
+        <?= form_open('backend/aplikasi/save_khusus');?>
+        <div class='modal-dialog <?= isset($modal_s) ? $modal_s : 'modal-lg'; ?>'></div>
         <div class="single-product-tab-area mg-tb-15">
             <!-- Single pro tab review Start-->
             <div class="single-pro-review-area">
@@ -86,7 +57,7 @@
                                                             <div class="input-group mg-b-pro-edt">
                                                                 <span class="input-group-addon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
                                                                 <select name="jenis_aplikasi2" id="jenis_aplikasi2" value='<?= (isset($get->jenis_aplikasi2)) ? $get->jenis_aplikasi2 : ''; ?>' class="form-control pro-edt-select form-control-primary">
-                                                                    <option value="opt1">--Pilih--</option>
+                                                                    <option value="">--Pilih--</option>
                                                                     <option value="ClienServer">ClienServer</option>
                                                                     <option value="Dekstop">Dekstop</option>
                                                                 </select>
@@ -97,7 +68,7 @@
                                                             <div class="input-group mg-b-pro-edt">
                                                                 <span class="input-group-addon"><i class="fa fa-server" aria-hidden="true"></i></span>
                                                                 <select name="bahasa_pemograman2" id="bahasa_pemograman2" class="form-control pro-edt-select form-control-primary" value='<?= (isset($get->bahasa_pemograman2)) ? $get->bahasa_pemograman2 : ''; ?>'>
-                                                                    <option value="opt1">--Pilih--</option>
+                                                                    <option value="">--Pilih--</option>
                                                                     <option value="PHP">PHP</option>
                                                                     <option value="Java">Java</option>
                                                                     <option value="Phyton">Phyton</option>
@@ -127,8 +98,9 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="text-center mg-b-pro-edt custom-pro-edt-ds">
-                                                    <button type="button" class="btn btn-primary waves-effect waves-light m-r-10">Save
-														</button>
+                                                    <input type='hidden' name='action' value='<?= $action; ?>' />
+                                                    <input type='hidden' name='id' value='<?php echo (isset($get->id)) ? $get->id: ''; ?>' />
+                                                    <button type="submit" class="btn btn-primary waves-effect waves-light m-r-10">Save</button>
                                                     <a href="<?php echo base_url('backend/aplikasi')?>"><button type="button" class="btn btn-warning waves-effect waves-light" >Discard</button></a>
                                                 </div>
                                             </div>

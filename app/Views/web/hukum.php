@@ -2,7 +2,9 @@
 <section id="services" class="hoc container clear">   
     <table class="table table-hover table-bordered" width="100%">
         <tr>
-            <th class="text-center" style="vertical-align: middle;">Dafatar Produk Hukum yang di Hasilkan</th>
+            <th class="text-center" style="vertical-align: middle;"><h4>Daftar Produk Hukum</h4>
+                <i>Produk Hukum yang di Hasilkan</i>
+            </th>
         </tr>
     </table>
     <div class="table-responsive">

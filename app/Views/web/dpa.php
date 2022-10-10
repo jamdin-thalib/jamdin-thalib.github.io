@@ -3,7 +3,7 @@
 <section id="services" class="hoc container clear">     
     <table class="table table-hover table-bordered" width="100%">
         <tr>
-            <th class="text-center" style="vertical-align: middle;">Rencana Kegiatan dan Anggaran (RKA)</th>
+            <th class="text-center" style="vertical-align: middle;"><h4>Rencana Kegiatan dan Anggaran (RKA)</h4></th>
         </tr>
     </table>
     <div class="table-responsive">
@@ -32,7 +32,7 @@
     </div>
     <table class="table table-hover table-bordered" width="100%">
         <tr>
-            <th class="text-center" style="vertical-align: middle;">Daftar Penggunaan Anggaran (DPA)</th>
+            <th class="text-center" style="vertical-align: middle;"><h4>Daftar Penggunaan Anggaran (DPA)</h4></th>
         </tr>
     </table>
     <div class="table-responsive">
@@ -61,7 +61,7 @@
     </div>
     <table class="table table-hover table-bordered" width="100%">
         <tr>
-            <th class="text-center" style="vertical-align: middle;">Daftar Realisasi Fisik dan Kegiatan (RFK)</th>
+            <th class="text-center" style="vertical-align: middle;"><h4>Daftar Realisasi Fisik dan Kegiatan (RFK)</h4></th>
         </tr>
     </table>
     <div class="table-responsive">

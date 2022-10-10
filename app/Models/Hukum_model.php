@@ -6,11 +6,11 @@ class Hukum_model extends Model
 
 { 
     protected $table = 'hukum';
-    
+    protected $allowedFields = ['tgl_produkh','nama_produkh','file_hukum','status','uraianh'];
     // datatables
     private function _get_datatables_query(){
-        $column_order = array('tgl_produkh.hukum','nama_produkh.hukum','status.hukum','uraianh.hukum',null);
-        $column_search = array('tgl_produkh.hukum','nama_produkh.hukum','status.hukum','uraianh.hukum',null);
+        $column_order = array('hukum.tgl_produkh','hukum.nama_produkh','hukum.file_hukum','hukum.status','hukum.uraianh',null);
+        $column_search = array('hukum.tgl_produkh','hukum.nama_produkh','hukum.status','hukum.uraianh',null);
         $orders = array('id' => 'asc');
 
         $this->db->table('hukum');

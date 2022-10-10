@@ -35,11 +35,12 @@ class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = ['url','form'];
+    protected $helpers = ['url','form','my_helper'];
 
     /**
      * Constructor.
      */
+    protected $validationListTemplate = 'list';
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
         // Do Not Edit This Line
@@ -47,6 +48,10 @@ class BaseController extends Controller
 
         // Preload any models, libraries, etc, here.
 
-        // E.g.: $this->session = \Config\Services::session();
+        $this->session = \Config\Services::session();
+        $this->ionAuth   = new \App\Libraries\IonAuth();
+        if (!empty($this->configIonAuth->templates['errors']['list'])) {
+			$this->validationListTemplate = $this->configIonAuth->templates['errors']['list'];
+		}
     }
 }

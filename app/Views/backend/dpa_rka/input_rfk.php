@@ -30,6 +30,8 @@
             </div>
         </div> -->
         <!-- Single pro tab start-->
+        <?= form_open('backend/dpa_admin/save_rfk');?>
+        <div class='modal-dialog <?= isset($modal_s) ? $modal_s : 'modal-lg'; ?>'></div>
         <div class="single-product-tab-area mg-tb-15">
             <!-- Single pro tab review Start-->
             <div class="single-pro-review-area">
@@ -72,7 +74,9 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="text-center mg-b-pro-edt custom-pro-edt-ds">
-                                                    <button type="button" class="btn btn-primary waves-effect waves-light m-r-10">Save
+                                                    <input type='hidden' name='action' value='<?= $action; ?>' />
+                                                    <input type='hidden' name='id' value='<?php echo (isset($get->id)) ? $get->id: ''; ?>' />
+                                                    <button type="submit" class="btn btn-primary waves-effect waves-light m-r-10">Save
 													</button>
                                                     <a href="<?php echo base_url('backend/dpa_admin')?>"><button type="button" class="btn btn-warning waves-effect waves-light" >Discard</button></a>
                                                 </div>

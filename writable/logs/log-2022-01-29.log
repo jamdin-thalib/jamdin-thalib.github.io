@@ -1,0 +1,357 @@
+ERROR - 2022-01-29 00:13:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(106): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:13:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-29 00:20:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:20:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(106): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:20:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-29 00:22:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:22:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(85): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->dpa()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:22:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-29 00:23:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:23:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(85): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->dpa()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:23:14 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-29 00:23:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:23:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(76): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->duk()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:23:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-29 00:23:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-29 00:23:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(67): CodeIgniter\BaseModel->findAll()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->hukum()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 00:23:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\learn\\diskom...', 96, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(235): include('D:\\learn\\diskom...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Debug\Exceptions.php(132): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-29 00:25:03 --> Invalid file: web/seleksi/seleksi.php
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/seleksi/sel...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/seleksi/sel...', Array, true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(111): view('web/seleksi/sel...', Array)
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#8 {main}
+CRITICAL - 2022-01-29 00:25:04 --> Invalid file: web/seleksi/seleksi.php
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/seleksi/sel...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('web/seleksi/sel...', Array, true)
+#2 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Home.php(111): view('web/seleksi/sel...', Array)
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Home->layanan()
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#8 {main}
+CRITICAL - 2022-01-29 00:35:54 --> Undefined variable: registrasi
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Views\backend\layout-admin\admin_register.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\learn\\diskom...', 45, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(214): include('D:\\learn\\diskom...')
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('backend/layout-...', Array, true)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Register.php(32): view('backend/layout-...')
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Register->registrasi()
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Register))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 19:18:30 --> Undefined property: App\Controllers\Auth::$validationListTemplate
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\learn\\diskom...', 136, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#6 {main}
+ERROR - 2022-01-29 19:24:53 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2022-01-29 19:24:53 --> Unknown column 'ip_address' in 'field list'
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(749): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\learn\diskominfo.bolmutkab.go.id\app\Libraries\IonAuth.php(91): App\Models\IonAuthModel->register('jawahirtree2@gm...', '$2y$10$XNS4r3e7...', 'jawahirtree2@gm...', Array, Array)
+#6 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(123): App\Libraries\IonAuth->register('jawahirtree2@gm...', '12345678', 'jawahirtree2@gm...', Array)
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#12 {main}
+ERROR - 2022-01-29 19:32:51 --> Table 'kominfo.users_groups' doesn't exist
+CRITICAL - 2022-01-29 19:32:51 --> Table 'kominfo.users_groups' doesn't exist
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(666): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(761): App\Models\IonAuthModel->addToGroup(Array, 6)
+#6 D:\learn\diskominfo.bolmutkab.go.id\app\Libraries\IonAuth.php(91): App\Models\IonAuthModel->register('jawahirtree2@gm...', '$2y$10$FY4w1i9W...', 'jawahirtree2@gm...', Array, Array)
+#7 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(123): App\Libraries\IonAuth->register('jawahirtree2@gm...', '12345678', 'jawahirtree2@gm...', Array)
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#13 {main}
+ERROR - 2022-01-29 19:38:04 --> Table 'kominfo.users_groups' doesn't exist
+CRITICAL - 2022-01-29 19:38:04 --> Table 'kominfo.users_groups' doesn't exist
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(666): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(761): App\Models\IonAuthModel->addToGroup(Array, 7)
+#6 D:\learn\diskominfo.bolmutkab.go.id\app\Libraries\IonAuth.php(91): App\Models\IonAuthModel->register('jawahirtree2@gm...', '$2y$10$zBGqB3J8...', 'jawahirtree2@gm...', Array, Array)
+#7 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(123): App\Libraries\IonAuth->register('jawahirtree2@gm...', '12345678', 'jawahirtree2@gm...', Array)
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#13 {main}
+ERROR - 2022-01-29 19:42:20 --> Table 'kominfo.users_groups' doesn't exist
+CRITICAL - 2022-01-29 19:42:20 --> Table 'kominfo.users_groups' doesn't exist
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(666): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(761): App\Models\IonAuthModel->addToGroup(Array, 8)
+#6 D:\learn\diskominfo.bolmutkab.go.id\app\Libraries\IonAuth.php(91): App\Models\IonAuthModel->register('jawahirtree2@gm...', '$2y$10$CHj0qv7w...', 'jawahirtree2@gm...', Array, Array)
+#7 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(123): App\Libraries\IonAuth->register('jawahirtree2@gm...', '12345678', 'jawahirtree2@gm...', Array)
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#13 {main}
+CRITICAL - 2022-01-29 19:44:57 --> Call to undefined method stdClass::row()
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(123): App\Libraries\IonAuth->register('email', '12345678', 'jawahirtree2@gm...', Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->save()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#6 {main}
+ERROR - 2022-01-29 19:49:25 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 465, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-01-29 19:53:48 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 465, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-01-29 20:08:17 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$activation_code
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\learn\\diskom...', 538, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\app\Models\IonAuthModel.php(849): App\Models\IonAuthModel->getUserByActivationCode('48d7d4a22b216c7...')
+#2 [internal function]: App\Models\IonAuthModel->activate(12, '48d7d4a22b216c7...')
+#3 D:\learn\diskominfo.bolmutkab.go.id\app\Libraries\IonAuth.php(29): call_user_func_array(Array, Array)
+#4 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Auth.php(300): App\Libraries\IonAuth->__call('activate', Array)
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Auth->activate(12, '48d7d4a22b216c7...')
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#10 {main}
+CRITICAL - 2022-01-29 23:27:22 -->  route cannot be found while reverse-routing.
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Backend\Admin.php(6): redirect('auth/login')
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Backend\Admin->index()
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Admin))
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#8 {main}
+CRITICAL - 2022-01-29 23:32:21 --> Undefined property: App\Controllers\Login::$validation
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\learn\\diskom...', 7, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#6 {main}
+CRITICAL - 2022-01-29 23:33:57 --> Undefined property: App\Controllers\Login::$validationListTemplate
+#0 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\learn\\diskom...', 30, Array)
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#6 {main}
+CRITICAL - 2022-01-29 23:36:35 --> Call to undefined function successMsg()
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('login', Array, true)
+#3 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(36): view('login', Array)
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#9 {main}
+CRITICAL - 2022-01-29 23:37:35 --> Call to undefined function successMsg()
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('login', Array, true)
+#3 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(36): view('login', Array)
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#9 {main}
+CRITICAL - 2022-01-29 23:37:38 --> Call to undefined function successMsg()
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('login', Array, true)
+#3 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(36): view('login', Array)
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#9 {main}
+CRITICAL - 2022-01-29 23:39:53 --> Call to undefined function successMsg()
+#0 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(214): include()
+#1 D:\learn\diskominfo.bolmutkab.go.id\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\learn\diskominfo.bolmutkab.go.id\system\Common.php(1092): CodeIgniter\View\View->render('login', Array, true)
+#3 D:\learn\diskominfo.bolmutkab.go.id\app\Controllers\Login.php(36): view('login', Array)
+#4 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#5 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\learn\diskominfo.bolmutkab.go.id\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\learn\diskominfo.bolmutkab.go.id\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\learn\diskominfo.bolmutkab.go.id\system\Commands\Server\rewrite.php(43): require_once('D:\\learn\\diskom...')
+#9 {main}

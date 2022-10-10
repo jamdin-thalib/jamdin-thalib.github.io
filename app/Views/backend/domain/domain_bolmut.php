@@ -44,43 +44,53 @@
                                     <div class="product-tab-list tab-pane fade active in" id="bolmut1">
                                         <div class="product-status mg-tb-15">
                                             <div class="container-fluid">
-                                                <div class="row">
+                                                <div class="row" style="overflow-x: auto;">
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>Bolmut List</h4>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>....!</strong> Successful or positive action.</p>
+                                                            </div>
                                                             <div class="add-product">
                                                                 <a href="<?php echo base_url('backend/Domain_bolmut/bolmut')?>">Add Bolmut</a>
                                                             </div>
-                                                            <table>
+                                                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                                                    data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th class="text-center">No</th>
-                                                                        <th class="text-center">Tanggal Pembuatan</th>
-                                                                        <th class="text-center">Nama Sub Domain</th>
-                                                                        <th class="text-center">Status</th>
-                                                                        <th class="text-center">Alamat URL</th>
-                                                                        <th class="text-center">Dinas Pengelola</th>
-                                                                        <th class="text-center">Nama Pengelola</th>
-                                                                        <th class="text-center">No Telpon</th>
-                                                                        <th class="text-center">Dekripsi</th>
-                                                                        <th class="text-center">Setting</th>
+                                                                        <th data-field="state" data-checkbox="true"></th>
+                                                                        <th class="text-center" data-field="id" data-editable="true">No</th>
+                                                                        <th class="text-center" data-field="tgl" data-editable="true">Tanggal Pembuatan</th>
+                                                                        <th class="text-center" data-field="sub_domain" data-editable="true">Nama Sub Domain</th>
+                                                                        <th class="text-center" data-field="status" data-editable="true">Status</th>
+                                                                        <th class="text-center" data-field="pengelola" data-editable="true">Dinas Pengelola</th>
+                                                                        <th class="text-center" data-field="nama" data-editable="true">Nama Pengelola</th>
+                                                                        <th class="text-center" data-field="telpon" data-editable="true">No Telpon</th>
+                                                                        <th class="text-center" data-field="deskripsi" data-editable="true">Dekripsi</th>
+                                                                        <th class="text-center" data-field="link" data-editable="true">Alamat URL</th>
+                                                                        <th class="text-center" data-field="action">Setting</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($bolmut as $bolmut) { ?>
+                                                                    <?php $no=1; foreach($bolmut as $row) { ?>
                                                                     <tr>
+                                                                        <td></td>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['tgl_pembuatan'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['nama_subdomain'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['status_domain'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['link'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['pengelola'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['nama_pengelola'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['no_telpon'] ?></td>
-                                                                        <td class="text-center"><?php echo $bolmut['deskripsi'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_pembuatan'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_subdomain'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['status_domain'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['pengelola'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_pengelola'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['no_telpon'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['deskripsi'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['link'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/domain_bolmut/edit_bolmut/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/domain_bolmut/hapus/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>
@@ -110,35 +120,45 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>Desa List</h4>
-                                                            <div class="add-product">
-                                                                <a href="<?php echo base_url('backend/Domain_desa/desa')?>">Add Desa</a>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>! </strong> Successful or positive action.</p>
                                                             </div>
-                                                            <table>
+                                                            <div class="add-product">
+                                                                <a href="<?php echo base_url('backend/Domain_bolmut/desa')?>">Add Desa</a>
+                                                            </div>
+                                                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                                                    data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>No</th>
-                                                                        <th>Nama Domain</th>
-                                                                        <th>Domain Status</th>
-                                                                        <th>Tanggal Daftar</th>
-                                                                        <th>Tanggal Berakhir</th>
-                                                                        <th>Masa Aktif</th>
-                                                                        <th>Alamat URL</th>
+                                                                        <th data-field="state" data-checkbox="true"></th>
+                                                                        <th class="text-center" data-field="id" data-editable="true">No</th>
+                                                                        <th class="text-center" data-field="nama" data-editable="true">Nama Domain</th>
+                                                                        <th class="text-center" data-field="status" data-editable="true">Domain Status</th>
+                                                                        <th class="text-center" data-field="pendaftaran" data-editable="true">Tanggal Pendaftaran</th>
+                                                                        <th class="text-center" data-field="akhir" data-editable="true">Tanggal Berakhir</th>
+                                                                        <th class="text-center" data-field="aktif" data-editable="true">Masa Aktif</th>
+                                                                        <th class="text-center" data-field="link" data-editable="true">Alamat URL</th>
                                                                         <th>Setting</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($desa as $desa) { ?>
+                                                                    <?php $no=1; foreach($desa as $row) { ?>
                                                                     <tr>
+                                                                        <td></td>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $desa['nama_domain'] ?></td>
-                                                                        <td class="text-center"><?php echo $desa['domain_status'] ?></td>
-                                                                        <td class="text-center"><?php echo $desa['tgl_daftar'] ?></td>
-                                                                        <td class="text-center"><?php echo $desa['tgl_akhir'] ?></td>
-                                                                        <td class="text-center"><?php echo $desa['masa_aktif'] ?></td>
-                                                                        <td class="text-center"><?php echo $desa['link'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_domain'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['domain_status'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_daftar'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_akhir'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['masa_aktif'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['link'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/domain_bolmut/edit_desa/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/domain_bolmut/hapus_desa/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>

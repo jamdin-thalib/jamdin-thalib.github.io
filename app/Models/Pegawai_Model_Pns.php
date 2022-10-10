@@ -6,11 +6,12 @@ class Pegawai_Model_Pns extends Model
 
 { 
     protected $table = 'pegawai_pns';
-    
+    protected $allowedFields = ['nama_pegawai','nip','jenis_kelamin','tempat_lahir','tgl_lahir','alamat','usia','cpns','pns','pangkat_gol','tmt_pangkat','tahun','bulan','berkala_awal','berkala_akhir','jenis_pegawai','agama','status_kawin','nama_pt','tingkat_pendidikan','program_studi','tahun_lulus','jabatan','eselon'];
     // datatables
+
     private function _get_datatables_query(){
-        $column_order = array('nama_pegawai.pegawai_pns','nip.pegawai_pns','jenis_kelamin.pegawai_pns','tempat_lahir.pegawai_pns','tgl_lahir.pegawai_pns','usia.pegawai_pns','cpns.pegawai_pns','pns.pegawai_pns','pangkat_gol.pegawai_pns','tmt_pangkat.pegawai_pns','tahun.pegawai_pns','bulan.pegawai_pns','jenis_pegawai.pegawai_pns','agama.pegawai_pns','status_kawin.pegawai_pns','tingkat_pendidikan.pegawai_pns','program_studi.pegawai_pns','tahun_lulus.pegawai_pns','jabatan.pegawai_pns','eselon.pegawai_pns',null);
-        $column_search = array('nama_pegawai.pegawai_pns','nip.pegawai_pns','jenis_kelamin.pegawai_pns','tempat_lahir.pegawai_pns','tgl_lahir.pegawai_pns','usia.pegawai_pns','cpns.pegawai_pns','pns.pegawai_pns','pangkat_gol.pegawai_pns','tmt_pangkat.pegawai_pns','tahun.pegawai_pns','bulan.pegawai_pns','jenis_pegawai.pegawai_pns','agama.pegawai_pns','status_kawin.pegawai_pns','tingkat_pendidikan.pegawai_pns','program_studi.pegawai_pns','tahun_lulus.pegawai_pns','jabatan.pegawai_pns','eselon.pegawai_pns',null);
+        $column_order = array('pegawai_pns.nama_pegawai','pegawai_pns.nip','pegawai_pns.jenis_kelamin','pegawai_pns.tempat_lahir','pegawai_pns.tgl_lahir','pegawai_pns.alamat','pegawai_pns.usia','pegawai_pns.cpns','pegawai_pns.pns','pegawai_pns.pangkat_gol','pegawai_pns.tmt_pangkat','pegawai_pns.tahun','pegawai_pns.bulan','pegawai_pns.berkala_awal','pegawai_pns.berkala_akhir','pegawai_pns.jenis_pegawai','pegawai_pns.agama','pegawai_pns.status_kawin','pegawai_pns.nama_pt','pegawai_pns.tingkat_pendidikan','pegawai_pns.program_studi','pegawai_pns.tahun_lulus','pegawai_pns.jabatan','pegawai_pns.eselon',null);
+        $column_search = array('pegawai_pns.nama_pegawai','pegawai_pns.nip','pegawai_pns.jenis_kelamin','pegawai_pns.tempat_lahir','pegawai_pns.tgl_lahir','pegawai_pns.alamat','pegawai_pns.usia','pegawai_pns.cpns','pegawai_pns.pns','pegawai_pns.pangkat_gol','pegawai_pns.tmt_pangkat','pegawai_pns.tahun','pegawai_pns.bulan','pegawai_pns.berkala_awal','pegawai_pns.berkala_akhir','pegawai_pns.jenis_pegawai','pegawai_pns.agama','pegawai_pns.status_kawin','pegawai_pns.nama_pt','pegawai_pns.tingkat_pendidikan','pegawai_pns.program_studi','pegawai_pns.tahun_lulus','pegawai_pns.jabatan','pegawai_pns.eselon');
         $orders = array('id' => 'asc');
 
         $this->db->table('pegawai_pns');

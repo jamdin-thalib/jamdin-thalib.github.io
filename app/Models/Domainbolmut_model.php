@@ -1,17 +1,16 @@
 <?php namespace App\Models;
 use CodeIgniter\Model;
-use SessionIdInterface;
 
 class Domainbolmut_model extends Model
 
 { 
     protected $table = 'domain_bolmut';
-    
+    protected $allowedFields = ['tgl_pembuatan','nama_subdomain','status_domain','pengelola','nama_pengelola','no_telpon','link','deskripsi'];
     // datatables
     private function _get_datatables_query()
 	{
-        $column_search = array('tgl_pembuatan.domain_bolmut','nama_subdomain.domain_bolmut','status_domain.domain_bolmut','pengelola.domain_bolmut','nama_pengelola.domain_bolmut','no_telpon.domain_bolmut','link.domain_bolmut','deskripsi.domain_bolmut',null);
-        $column_order = array('tgl_pembuatan.domain_bolmut','nama_subdomain.domain_bolmut','status_domain.domain_bolmut','pengelola.domain_bolmut','nama_pengelola.domain_bolmut','no_telpon.domain_bolmut','link.domain_bolmut','deskripsi.domain_bolmut',null);
+        $column_search = array('domain_bolmut.tgl_pembuatan','domain_bolmut.nama_subdomain','domain_bolmut.status_domain','domain_bolmut.pengelola','domain_bolmut.nama_pengelola.','no_telpon.domain_bolmut','domain_bolmut.link','domain_bolmut.deskripsi',null);
+        $column_order = array('domain_bolmut.tgl_pembuatan','domain_bolmut.nama_subdomain','domain_bolmut.status_domain','domain_bolmut.pengelola','domain_bolmut.nama_pengelola.','no_telpon.domain_bolmut','domain_bolmut.link','domain_bolmut.deskripsi');
         $orders = array('id' => 'asc');
 
         $this->db->table('domain_bolmut');

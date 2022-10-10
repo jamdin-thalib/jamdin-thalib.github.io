@@ -1,5 +1,3 @@
-
-    <body>
 		<div class="color-plate ">
 			<a class="icon"><i class="fa fa-cog fa-spin"></i></a>
 			<center><h2 style="color: blue;" >Silahkan Melakukan Pendaftaran</h2></center>
@@ -7,7 +5,7 @@
 				<div class="button-ap-list responsive-btn">
 					<div class="mb-4 mr-4">
 						<div class="text-center"><small>Silahkan Clik Tombol Daftar</small></div>
-						<button class="btn  btn-primary btn-block"><a href="<?php echo base_url('home/pendaftaran')?>" target="_blank"><p style="color:cyan">Daftar</p></button>
+						<button class="btn  btn-primary btn-block"><a href="<?= base_url('login/register')?>" target="_blank"><p style="color:cyan">Daftar</p></button>
 					</div>
 				</div>
 			</div>
@@ -20,7 +18,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-2 col-xs-2">
 							<div class="logo">
-								<a href="<?php echo base_url('home')?>"><img src="<?php echo base_url('assets/seleksi/img/logo.png')?>" alt="logo.png"></a>
+								<a href="<?= site_url('home')?>"><img src="<?= base_url('assets/seleksi/img/logo.png')?>" alt="logo.png"></a>
 							</div>
 						</div>
 						<div class="col-md-9 col-sm-10">
@@ -40,7 +38,7 @@
 						<div class="button-head">
 							<div style="color: darkred;">
 								<span></span>
-								<a href="<?php echo base_url('home/pendaftaran')?>" target="_blank" class="btn"><h4><p style="color: red;">Silahkan Clik Link ini untuk melakuakan Pendaftaran...!!!</h4></p></a>
+								<a href="<?= base_url('home/pendaftaran')?>" target="_blank" class="btn"><h4><p style="color: red;">Silahkan Clik Link ini untuk melakuakan Pendaftaran...!!!</h4></p></a>
 							</div>
 						</div>	
 					</marquee>
@@ -61,17 +59,11 @@
 									SELEKSI PENERIMAAN TENAGA AHLI
 									<span class="cd-words-wrapper">
 										<b class="is-visible">Programer</b>
-										<!-- <b>Web Depelover</b> -->
 										<b>Teknisi Jaringan</b>
 									</span>
 								</h1>
-								<p>Bagi Pelamar yang berkeinginan silahkan melakukan pendaftaran.<br> Dan melengkapi berkas persyaratan.</p>
-								<div class="button-head">
-									<div class="button">
-										<span></span>
-										<a href="#" class="btn">DINAS KOMUNIKASI INFORMATIKA DAN PERSANDIAN KABUPATEN BOLAANG MONGONDOW UTARA</a>
-									</div>
-								</div>
+								<!-- <p>Bagi Pelamar yang berkeinginan silahkan melakukan pendaftaran.<br> Dan melengkapi berkas persyaratan.</p> -->
+                                <h2 class="cd-headline clip is-full-width"><span id="timer" style="color:red;"></span></h2>
 							</div>
 						</div>
 					</div>
@@ -82,7 +74,7 @@
 		
 		<!-- features Area -->
 		<section id="features" class="section">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title">
@@ -94,7 +86,7 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.9s">
 						<div class="feature-left">
-							<img src="<?php echo base_url('assets/seleksi/img/computer.jpg')?>" alt="#">
+							<img src="<?= base_url('assets/seleksi/img/computer.jpg')?>" alt="#">
 						</div>	
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.9s">
@@ -115,52 +107,23 @@
 											<div class="container-fluid">
 												<div class="row">
 													<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-														<div class="sparkline8-list">
+														<!-- <div class="sparkline8-list">
 															<div class="sparkline8-graph">
 																<div class="static-table-list">
-																	<table class="table">
-																		<tbody>
-																			<tr>
-																				<td>1.</td>
-																				<td>Warga Negara Indonesia;</td>
-																			</tr>
-																			<tr>
-																				<td>2.</td>
-																				<td>Pria/Wanita, usia minimal 20 Tahun dan maksimal 35 Tahun;</td>
-																			</tr>
-																			<tr>
-																				<td>3.</td>
-																				<td>Memiliki integritas, perilaku terpuji, disiplin bekerja dan mampu bekerja dalam tekanan baik individu maupun dalam tim serta dapat menyelesaikan pekerjaan sesuai target;</td>
-																			</tr>
-																			<tr>
-																				<td>4.</td>
-																				<td>Bebas NAPZA (dibuktikan dengan Surat Keterangan Dokter /Rumah Sakit Pemerintah setelah dinyatakan “DITERIMA”);</td>
-																			</tr>
-																			<tr>
-																				<td>5.</td>
-																				<td>Pendidikan minimal Diploma (D3) Teknik Informatika/Sistem Informasi/Manajemen Informatika/dan atau Bidang Ilmu yang relevan untuk jabatan Junior Programmer;</td>
-																			</tr>
-																			<tr>
-																				<td>6.</td>
-																				<td>Pendidikan minimal SMA/SMK sederajat untuk jabatan Teknisi Muda Jaringan Komputer;</td>
-																			</tr>
-																			<tr>
-																				<td>7.</td>
-																				<td>Tidak pernah terlibat dalam kasus kriminal;</td>
-																			</tr>
-																			<tr>
-																				<td>8.</td>
-																				<td>Tidak buta warna</td>
-																			</tr>
-																			<tr>
-																				<td>9.</td>
-																				<td>Memiliki Kemauan Besar untuk Belajar;</td>
-																			</tr>
-																		</tbody>
-																	</table>
+																	
 																</div>
 															</div>
-														</div>
+														</div> -->
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <?php $no=1; foreach($persyaratan1 as $row) { ?>
+                                                                    <tr>
+                                                                        <td><?= $no ?></td>
+                                                                        <td><?= $row['item'] ?></td>
+                                                                    </tr>
+                                                                <?php $no++; } ?>
+                                                            </tbody>
+                                                        </table>
 													</div>
 												</div>
 											</div>
@@ -181,22 +144,12 @@
 															<div class="static-table-list">
 																<table class="table">
 																	<tbody>
+																		<?php $no=1; foreach($persyaratan2 as $row) { ?>
 																		<tr>
-																			<td>1.</td>
-																			<td>Memahami Bahasa Pemrograman PHP, HTML, CSS, Javascript, dan Mysql;</td>
+																			<td><?= $no ?></td>
+																			<td><?= $row['item'] ?></td>
 																		</tr>
-																		<tr>
-																			<td>2.</td>
-																			<td>Memahami Framework Laravel;</td>
-																		</tr>
-																		<tr>
-																			<td>3.</td>
-																			<td>Memahami konsep Model-View-Controller (MVC);</td>
-																		</tr>
-																		<tr>
-																			<td>4.</td>
-																			<td>Memahami konsep source control (GIT).</td>
-																		</tr>
+																		<?php $no++; } ?>
 																	</tbody>
 																</table>
 															</div>
@@ -211,7 +164,7 @@
 							<div class="single-right">
 								<i class="fa fa-desktop" aria-hidden="true"></i>
 								<div class="right-content">
-									<h3>C.	Persyaratan Khusus Jabatan Teknisi Jaringan Komputer</h3>
+									<h3>C.	Persyaratan Khusus Jabatan Teknisi Jaringan</h3>
 									<div class="text-justify">
 										<div class="container-fluid">
 											<div class="row">
@@ -221,18 +174,12 @@
 															<div class="static-table-list">
 																<table class="table">
 																	<tbody>
+																		<?php $no=1; foreach($persyaratan3 as $row) { ?>
 																		<tr>
-																			<td>1.</td>
-																			<td>Memahami konsep dasar teknologi jaringan komputer;</td>
+																			<td><?= $no ?></td>
+																			<td><?= $row['item'] ?></td>
 																		</tr>
-																		<tr>
-																			<td>2.</td>
-																			<td>Memahami konsep dasar Fiber Optic;</td>
-																		</tr>
-																		<tr>
-																			<td>3.</td>
-																			<td>Tidak takut/phobia ketinggian;</td>
-																		</tr>
+																		<?php $no++; } ?>
 																	</tbody>
 																</table>
 															</div>
@@ -268,9 +215,9 @@
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="admintab-wrap mg-t-30">
 									<ul class="nav nav-tabs custom-menu-wrap custon-tab-menu-style1">
-										<li class="active"><a data-toggle="tab" href="#TabProject"><span class="adminpro-icon adminpro-analytics tab-custon-ic"></span><h5>A. Kelengkapan Berkas Lamaran</h5></a>
+										<li class="active"><a data-toggle="tab" href="#RP"><span class="adminpro-icon adminpro-analytics tab-custon-ic"></span><h5>A. Registrasi Peserta</h5></a>
 										</li>
-										<li><a data-toggle="tab" href="#TabDetails"><span class="adminpro-icon adminpro-analytics-arrow tab-custon-ic"></span><h5>B. Berkas</h5></a>
+                                        <li class=""><a data-toggle="tab" href="#TabProject"><span class="adminpro-icon adminpro-analytics tab-custon-ic"></span><h5>B. Kelengkapan Berkas Lamaran</h5></a>
 										</li>
 										<li><a data-toggle="tab" href="#TabPlan"><span class="adminpro-icon adminpro-analytics-bridge tab-custon-ic"></span><h5>C. Berkas lamaran</h5></a>
 										</li>
@@ -282,7 +229,7 @@
 										</li>
 									</ul>
 									<div class="tab-content">
-										<div id="TabProject" class="tab-pane in active animated flipInX custon-tab-style1">
+                                        <div id="RP" class="tab-pane in active animated flipInX custon-tab-style1">
 											<div class="static-table-area mg-t-15">
 												<div class="container-fluid">
 													<div class="row">
@@ -293,141 +240,125 @@
 																		<table class="table">
 																			<tbody>
 																				<tr>
-																					<td>A.</td>
-																					<td><h4>Berkas Lamaran yang dikirimkan/disampaikan kepada Panitia  Seleksi terdiri atas :</h4></td>
-																				</tr>
-																				<tr>
 																					<td>1.</td>
-																					<td>Surat lamaran yang ditandatangani ditujukan kepada  Kepala Dinas Komunikasi Informatika dan Persandian Kabupaten Bolaang Mongondow Utara dengan alamat Dinas Kominfo Bolaang Mongondow Utara, Jln. Imam Bonjol, Desa Boroko, Kecamatan Kaidipang; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
+																					<td>Pelamar wajib memiliki email aktif untuk melakukan registrasi;
 																				</tr>
 																				<tr>
 																					<td>2.</td>
-																					<td>Fotocopy/Scan ijazah dan daftar nilai/transkrip nilai;</td>
+																					<td>Pelamar hanya bisa mendaftar 1 (satu) kali pada 1 (satu) jabatan;</td>
 																				</tr>
 																				<tr>
 																					<td>3.</td>
-																					<td>Fotocopy/Scan Kartu Tanda Penduduk (KTP);</td>
+																					<td>Pelamar melakukan registrasi online melalui diskominfo.bolmutkab.go.id/seleksi kemudian akan mendapatkan balasan email aktivasi;</td>
 																				</tr>
 																				<tr>
 																					<td>4.</td>
-																					<td>Pas Foto berwarna latar merah ukuran 4x6 cm 2 (dua) lembar;</td>
+																					<td>Email dan password yang didaftarkan akan menjadi username dan password login untuk pengisian kelengkapan data dan mengunggah dokumen pendaftaran;</td>
 																				</tr>
 																				<tr>
 																					<td>5.</td>
-																					<td>Fotocopy/Scan Surat Keterangan Catatan Kepolisian (SKCK) yang masih berlaku dan telah dilegalisir dari pihak Polres/Polsek sebanyak 1 (satu) lembar;</td>
+																					<td>Setelah mengisi kelengkapan data dan mengunggah dokumen pendaftaran, pelamar wajib melakukan submit dan mencetak bukti pendaftaran.</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																</div> 
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="TabProject" class="tab-pane in animated flipInX custon-tab-style1">
+											<div class="static-table-area mg-t-15">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+															<div class="sparkline8-list">
+																<div class="sparkline8-graph">
+																	<div class="static-table-list">
+																		<table class="table">
+																			<tbody>
+																				<tr>
+																					<td>1.</td>
+																					<td>File pdf surat lamaran bermaterai Rp. 10.000,- yang ditandatangani ditujukan kepada  Kepala Dinas Komunikasi Informatika dan Persandian Kabupaten Bolaang Mongondow Utara dengan alamat Dinas Kominfo Bolaang Mongondow Utara, Jln. Imam Bonjol, Desa Boroko, Kecamatan Kaidipang; <a href="<?= base_url('assets/seleksi/file/contoh_surat.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
+																				</tr>
+																				<tr>
+																					<td>2.</td>
+																					<td>File pdf ijazah dan daftar nilai/transkrip nilai;</td>
+																				</tr>
+																				<tr>
+																					<td>3.</td>
+																					<td>File jpg Kartu Tanda Penduduk (KTP);</td>
+																				</tr>
+																				<tr>
+																					<td>4.</td>
+																					<td>File jpg pas foto berwarna latar merah ukuran 4x6 cm;</td>
+																				</tr>
+																				<tr>
+																					<td>5.</td>
+																					<td>Surat Keterangan Catatan Kepolisian (SKCK) yang masih berlaku dan telah dilegalisir dari pihak Polres/Polsek sebanyak 1 (satu) lembar (apabila telah dinyatakan <b>“DITERIMA”</b>);</td>
 																				</tr>
 																				<tr>
 																					<td>6.</td>
-																					<td>Surat Keterangan Sehat dari Dokter Rumah Sakit Pemerintah/Puskesmas (apabila telah dinyatakan “DITERIMA”);</td>
+																					<td>Surat Keterangan Sehat dari Dokter Rumah Sakit Pemerintah/Puskesmas (apabila telah dinyatakan <b>“DITERIMA”</b>);</td>
 																				</tr>
 																				<tr>
 																					<td>7.</td>
-																					<td>Portofolio  Project/Aplikasi yang pernah dibuat (khusus untuk jabatan Junior Programmer);</td>
+																					<td>Link Portofolio  Project/Aplikasi yang pernah dibuat khusus untuk jabatan Programer (jika ada);</td>
 																				</tr>
 																				<tr>
 																					<td>8.</td>
-																					<td>Sertifikat kegiatan Seminar/Workshop/Pelatihan yang pernah diikuti (jika ada).</td>
+																					<td>File pdf sertifikat kegiatan Seminar/Workshop/ Pelatihan bidang IT yang pernah diikuti (jika ada);</td>
 																				</tr>
 																				<tr>
 																					<td>9.</td>
-																					<td>Sertifikat Keahlian Bidang IT (nilai tambah);</td>
+																					<td>Sertifikat Keahlian Bidang IT (Nilai tambah);</td>
 																				</tr>
 																				<tr>
 																					<td>10.</td>
 																					<td>
-																						Surat Pernyataan bermaterai Rp. 10000,- yang menyatakan : 
+																						Surat Pernyataan bermaterai Rp. 10000,- yang menyatakan : <a href="<?= base_url('assets/seleksi/file/contoh_surat.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
 																						<table class="table">
 																							<tr>
 																								<td>a.</td>
-																								<td>
-																									Tidak sedang terikat kontrak kerja dengan instansi lain baik Negeri maupun Swasta; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
-																								</td>
+																								<td>Tidak sedang terikat kontrak kerja dengan instansi lain baik Negeri maupun Swasta;</td>
 																							</tr>
 																							<tr>
 																								<td>b.</td>
-																								<td>
-																									Disiplin dan mampu bekerja keras secara mandiri maupun tim; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
-																								</td>
+																								<td>Mampu bekerja keras secara mandiri maupun tim dan disiplin kerja;</td>
 																							</tr>
 																							<tr>
 																								<td>c.</td>
-																								<td>
-																									Dapat bekerja berdasarkan target yang diberikan; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
-																								</td>
+																								<td>Dapat bekerja berdasarkan target yang diberikan;</td>
 																							</tr>
 																							<tr>
 																								<td>d.</td>
-																								<td>
-																									Memiliki kemampuan analisa yang baik, mampu bekerja dibawah tekanan dan melakukan pengembangan serta perawatan aplikasi yang sudah ada; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
-																								</td>
+																								<td>Memiliki kemampuan analisa yang baik, mampu bekerja dibawah tekanan dan melakukan pengembangan serta perawatan aplikasi yang sudah ada;</td>
 																							</tr>
 																							<tr>
 																								<td>e.</td>
-																								<td>
-																									Bersedia menyesuaikan dengan jam kerja yang berlaku pada Pemerintah Kabupaten Bolaang Mongondow Utara; <a href="<?php echo base_url('assets/seleksi/file/Open Rekrutmen Junior Programmer dan Teknisi Jaringan.pdf')?>" target="_blank"><i>(Contoh Surat)</i></a>
-																								</td>
+																								<td>Bersedia menyesuaikan dengan jam kerja yang berlaku pada Pemerintah Kabupaten Bolaang Mongondow Utara;</td>
 																							</tr>
-																							
+																							<tr>
+																								<td>f.</td>
+																								<td>Bersedia kerja diluar jam kerja kantor ketika sewaktu-waktu dibutuhkan.</td>
+																							</tr>
 																						</table>
 																					</td>
 																				</tr>
 																			</tbody>
 																		</table>
 																	</div>
-																</div>
+																</div> 
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-										<div id="TabDetails" class="tab-pane animated flipInX custon-tab-style1">
-											<div class="static-table-area mg-t-15">
-												<div class="container-fluid">
-													<div class="row">
-														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-															<div class="sparkline8-list">
-																<div class="sparkline8-graph">
-																	<div class="static-table-list">
-																		<table class="table">
-																			<tbody>
-																				<tr>
-																					<!-- <td></td>
-																					<td>Berkas lamaran sebagaimana dimaksud disampaikan melalui halaman website bolmutkab.go.id dan diskominfo.bolmutkab.go.id.</td> -->
-																				</tr>
-																			</tbody>
-																		</table>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<p>Berkas lamaran sebagaimana dimaksud disampaikan melalui halaman website bolmutkab.go.id dan diskominfo.bolmutkab.go.id.</p>
 										</div>
 										<div id="TabPlan" class="tab-pane animated flipInX custon-tab-style1">
-											<div class="container-fluid">
-												<div class="row">
-													<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-														<div class="sparkline8-list">
-															<div class="sparkline8-graph">
-																<div class="static-table-list">
-																	<table class="table">
-																		<tbody>
-																			<tr>
-																				<!-- <td></td> -->
-																				<!-- <td>Berkas lamaran sebagaimana dimaksud disampaikan melalui halaman website bolmutkab.go.id dan diskominfo.bolmutkab.go.id.</td> -->
-																			</tr>
-																		</tbody>
-																	</table>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<p>Setelah dinyatakan DITERIMA berkas lamaran (hardcopy) yang di unggah dapat diantar  ke Sekretariat Panitia Seleksi Kantor Dinas Komunikasi Informatika dan Persandian Kabupaten Bolaang Mongondow Utara dengan alamat Jln. Imam Bonjol, Desa Boroko, Kecamatan Kaidipang.</p>
+											<p>Setelah dinyatakan <b>DITERIMA</b> berkas lamaran (hardcopy) yang di unggah dapat diantar  ke Sekretariat Panitia Seleksi Kantor Dinas Komunikasi Informatika dan Persandian Kabupaten Bolaang Mongondow Utara dengan alamat Jln. Imam Bonjol, Desa Boroko, Kecamatan Kaidipang.</p>
 										</div>
 										<div id="TabPlan1" class="tab-pane animated flipInX custon-tab-style1">
 											<div class="container-fluid">
@@ -444,11 +375,11 @@
 																			</tr>
 																			<tr>
 																				<td>1.</td>
-																				<td>Pengumuman dimulai dari tanggal 31 Januari 2022.</td>
+																				<td>Pengumuman dimulai dari tanggal 01 Februari 2022.</td>
 																			</tr>
 																			<tr>
 																				<td>2.</td>
-																				<td>Waktu pendaftaran dan pengiriman berkas lamaran berlangsung dari tanggal 01 Februari s/d 03 Februari 2022.</td>
+																				<td>Waktu pendaftaran dan pengiriman berkas lamaran berlangsung dari tanggal 02 Februari s/d 05 Februari 2022.</td>
 																			</tr>
 																		</tbody>
 																	</table>
@@ -474,7 +405,7 @@
 																			</tr>
 																			<tr>
 																				<td>1.</td>
-																				<td>Pelamar dinyatakan lulus administrasi apabila memenuhi seluruh persyaratan dan ketentuan sebagaimana dimaksud pada poin II dan III, akan diumumkan pada tanggal 4 Februari 2022 pada website bolmutkab.go.id dan diskominfo.bolmutkab.go.id.</td>
+																				<td>Pelamar dinyatakan lulus administrasi apabila memenuhi seluruh persyaratan dan ketentuan sebagaimana dimaksud pada poin II dan III, akan diumumkan pada tanggal 7 Februari 2022 pada website bolmutkab.go.id dan diskominfo.bolmutkab.go.id.</td>
 																			</tr>
 																			<tr>
 																				<td>2.</td>
@@ -488,11 +419,11 @@
 																			</tr>
 																			<tr>
 																				<td>1.</td>
-																				<td>Tes kemampuan dan pengetahuan mengenai Pemrograman/live coding (untuk Jabatan Junior Programmer);</td>
+																				<td>Tes kemampuan dan pengetahuan mengenai Pemrograman/live coding (untuk Jabatan Programmer);</td>
 																			</tr>
 																			<tr>
 																				<td>2.</td>
-																				<td>Tes memasang kabel jaringan (splicing Fiber Optic dan Crimping Kabel Lan), manajemen Switch dan Access Point (untuk Jabatan Teknisi Muda Jaringan Komputer);</td>
+																				<td>Tes tertulis dan praktik (membuat kabel Lan, manajemen Switch dan Access Point serta splicing kabel fiber optik) untuk Jabatan Teknisi Jaringan;</td>
 																			</tr>
 																			<tr>
 																				<td>3.</td>
@@ -559,47 +490,21 @@
 		</section>
 		<section>
 			<marquee title="Ini Muncul Saat Hover" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right">
-				<div>
-					<div class="">
-						<span></span>
-						<a href="<?php echo base_url('home/pendaftaran')?>" target="_blank" class="btn"><h4><p style="color: red;">Silahkan Clik Link ini untuk melakuakan Pendaftaran...!!!</h4></p></a>
-					</div>
-				</div>	
+				<div class="">
+					<span></span>
+					<a href="<?= base_url('login')?>" target="_blank" class="btn"><h4><p style="color: red;">Silahkan klik Link ini untuk melakukan Pendaftaran...!!!</h4></p></a>
+				</div>
 			</marquee>
-			<!-- <marquee title="Ini Muncul Saat Hover" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right"><a href="https://posciety.com" target="_blank"><h5>Silahkan Melakukan Pendaftaran...!!!</h5></a> </marquee>
-			sumber: https://www.posciety.com/cara-membuat-tulisan-berjalan-html-css/ -->
 		</section>
 
-		<!-- <section id="tombol" class="section">
-			<div class="row center">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="button-ad-wrap res-mg-t-30">
-						<div class="text-center">
-							<h2>Silahkan Melakukan Pendaftaran</h2>
-							<p>Silahkan Clik Tombol Daftar Di bawah ni....!!!</p>
-						</div>
-						<div class="button-ap-list responsive-btn">
-							<div class="mb-4 mr-4">
-								<div class="text-center"><small>Full width button</small></div>
-								<button class="btn  btn-primary btn-block">Daftar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-        <!-- tabs End-->
-		
-		
-		<!-- Testimonials -->
-		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+		<!-- <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
 			<section class="bg">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<div class="owl-carousel testimonial-slider">
 								<div class="single-testimonial">
-									<img src="<?php echo base_url('assets/seleksi/img/testi-1.jpg')?>" alt="#">
+									<img src="<?= base_url('assets/seleksi/img/testi-1.jpg')?>" alt="#">
 									<h2><i>Web Developer Job Description</i></h2>
 									<p><i class="fa fa-quote-left" aria-hidden="true"></i><i>Web developers design and build websites. They are typically responsible for the appearance, of the site and technical aspects, such as site speed and how much traffic the site can handle. Web developers may also create site content that requires technical features.They are sometimes known as web designers or full-stack developers if they can do both front-end and back-end development.<i class="fa fa-quote-right" aria-hidden="true"></i></i>
 									<span>https:google.com</span>
@@ -607,7 +512,7 @@
 									</p>
 								</div>
 								<div class="single-testimonial">
-									<img src="<?php echo base_url('assets/seleksi/img/testi-2.jpg')?>" alt="#">
+									<img src="<?= base_url('assets/seleksi/img/testi-2.jpg')?>" alt="#">
 									<h2><i>Web Developer Programmer Job Description</i></h2>
 									<p><i class="fa fa-quote-left" aria-hidden="true"></i><i>A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary.<i class="fa fa-quote-right" aria-hidden="true"></i></i></p>
 									<span>https:google.com</span>
@@ -617,7 +522,7 @@
 
 								</div>
 								<div class="single-testimonial">
-									<img src="<?php echo base_url('assets/seleksi/img/testi-3.jpg')?>" alt="#">
+									<img src="<?= base_url('assets/seleksi/img/testi-3.jpg')?>" alt="#">
 									<h2><i>Web Analytics Manager Job Description</i></h2>
 									<p><i class="fa fa-quote-left" aria-hidden="true"></i><i>The Web Analytics Manager reports the Director of Digital Marketing for Merchant Sales & Solutions, providing technical leadership and support for web analytics tools that deliver insights to help increase site visitors, create deeper engagement, and improve online conversions.<i class="fa fa-quote-right" aria-hidden="true"></i></i></p>
 									<span>Foster City, CA</span>
@@ -628,7 +533,7 @@
 					</div>
 				</div>
 			</section>
-		</section>
+		</section> -->
 		<!--/ End Testimonials -->
 		
 		<!-- Blog -->
@@ -638,7 +543,6 @@
 					<div class="col-md-12">
 						<div class="section-title">
 							<h2>Galery Kegiatan</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
 						</div>
 					</div>
 				</div>
@@ -646,52 +550,34 @@
 					<div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.4s">
 						<div class="single-news">
 							<div class="news-head">
-								<img src="<?php echo base_url('assets/seleksi/img/kegiatan1.jpg')?>" alt="#">
+								<img src="<?= base_url('assets/seleksi/img/kegiatan1.jpg')?>" alt="#">
 							</div>
 							<div class="news-body">
 								<h3 class="date">25<span>nov</span></h3>
 								<h2><a href="blog-single.html">Penarikan Pasang Baru</a></h2>
-								<!-- <div class="title"><span class="user"><i class="fa fa-user" aria-hidden="true"></i>adminaccess</span> <span class="comment"><i class="fa fa-comment-o" aria-hidden="true"></i>no comment</span></div> -->
-								<!-- <p>Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p> -->
-								<!-- <a href="blog-single.html" class="btn">Read More<i class="fa fa-caret-right" aria-hidden="true"></i></a> -->
+								
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s">
 						<div class="single-news">
 							<div class="news-head">
-								<img src="<?php echo base_url('assets/seleksi/img/kegiatan2.jpg')?>" alt="#">
+								<img src="<?= base_url('assets/seleksi/img/kegiatan2.jpg')?>" alt="#">
 							</div>
 							<div class="news-body">
 								<h3 class="date">30<span>nov</span></h3>
 								<h2><a href="blog-single.html">Perbaikan Sambungan ODP</a></h2>
-								<!-- <div class="title"><span class="user"><i class="fa fa-user" aria-hidden="true"></i>adminaccess</span> <span class="comment"><i class="fa fa-comment-o" aria-hidden="true"></i>no comment</span></div> -->
-								<!-- <p>Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p> -->
-								<!-- <a href="blog-single.html" class="btn">Read More<i class="fa fa-caret-right" aria-hidden="true"></i></a> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.9s">
 						<div class="single-news">
 							<div class="news-head">
-								<img src="<?php echo base_url('assets/seleksi/img/kegiatan3.jpg')?>" alt="#">
+								<img src="<?= base_url('assets/seleksi/img/kegiatan3.jpg')?>" alt="#">
 							</div>
 							<div class="news-body">
 								<h3 class="date">05<span>dec</span></h3>
 								<h2><a href="blog-single.html">Penyambungan Kabel</a></h2>
-								<!-- <div class="title"><span class="user"><i class="fa fa-user" aria-hidden="true"></i>adminaccess</span> <span class="comment"><i class="fa fa-comment-o" aria-hidden="true"></i>no comment</span></div> -->
-								<!-- <p>Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p> -->
-								<!-- <a href="blog-single.html" class="btn">Read More<i class="fa fa-caret-midle" aria-hidden="true"></i></a> -->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="button-head">
-							<div class="button">
-								<span></span>
-								<a href="#" class="btn">Load More</a>
 							</div>
 						</div>
 					</div>
@@ -700,64 +586,13 @@
 		</section>
 		<!--/ End Newslatter -->
 		
-		<!-- Fun Facts Area -->
-		<section id="fun-facts" class="fun-facts section" data-stellar-background-ratio="0.5">
-			<div class="bf-color">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.4s">
-							
-							<div class="single-fun">
-								<i class="fa fa-th-list" aria-hidden="true"></i>
-								<span class="counter">3468</span>
-								<p>Project Finished</p>
-							</div>
-							
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s">
-							
-							<div class="single-fun">
-								<i class="fa fa-smile-o" aria-hidden="true"></i>
-								<span class="counter">468</span>
-								<p>Happy Clients</p>
-							</div>
-							<!--/ End Single Fun -->
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
-							<!-- Single Fun -->
-							<div class="single-fun">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-								<span class="counter">4368</span>
-								<p>Hourse Work</p>
-							</div>
-							<!--/ End Single Fun -->
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="1s">
-							<!-- Single Fun -->
-							<div class="single-fun">
-								<i class="fa fa-coffee" aria-hidden="true"></i>
-								<span class="counter">3468</span>
-								<p>Cups of coffes</p>
-							</div>
-							<!--/ End Single Fun -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Fun Facts Area -->
-		
-
-		<!-- <marquee scrolldelay="20" title="Ini Muncul Saat Hover">Ini Tulisan Berjalan</marquee> -->
- 		<!-- sumber: https://www.posciety.com/cara-membuat-tulisan-berjalan-html-css/ -->
-		<!-- Team -->
 		<section id="team" class="section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-sm-12">
 						<div class="section-title">
 							<h2>Team Penguji</h2>
-							<p>Adapun Team penguji berdasarakn SK Bupati Kabupaten Bolaang Mongondow Utara</p>
+							<p>Adapun Team penguji berdasarkan SK Bupati Kabupaten Bolaang Mongondow Utara</p>
 						</div>
 					</div>
 				</div>
@@ -766,7 +601,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/team1.png')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/img_avatar3.png')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -786,7 +621,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/team2.png')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/pak_sek_kominfo.png')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -806,7 +641,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/team3.png')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/kabid_aptika.jpeg')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -826,7 +661,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/JAWAHIR1.jpeg')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/JAWAHIR1.jpeg')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -846,7 +681,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/hafid.jpg')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/hafid.jpg')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -857,7 +692,7 @@
 								</div>
 							</div>
 							<div class="t-name">
-								<h4>Hafid Akbar Pangeran, ST<span>ANalis Jaringan</span></h4>
+								<h4>Hafid Akbar Pangeran, ST<span>Analis Jaringan</span></h4>
 							</div>
 						</div>
 						<!--/ End Single Team -->
@@ -866,7 +701,7 @@
 						<!-- Single Team -->
 						<div class="single-team">
 							<div class="team-head">
-								<img src="<?php echo base_url('assets/seleksi/img/jamdin.jpg')?>" alt="">
+								<img src="<?= base_url('assets/seleksi/img/jamdin.jpg')?>" alt="">
 								<div class="team-hover">
 									<ul class="social">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -885,204 +720,3 @@
 				</div>
 			</div>
 		</section>
-		<!--/ End Team -->
-		
-		<!-- Pricing Table -->
-		<!-- <section class="p-table4 section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2>Pricing Table</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="single-table">
-							<div class="table-head">
-								<div class="title-head">
-									<h2 class="title">Basic</h2>
-								</div>
-								<div class="price">
-									<p class="amount"><span>$</span>19</p>
-								</div>	
-							</div>
-							<ul class="table-list">
-								<li>Responsive( Mobile Website)</li>
-								<li>24/7 Technic Support</li>
-								<li>1 Year Hosting Free</li>
-								<li>Image slider (Animation)</li>
-								<li>Unlimited Email Account</li>
-								<li>Free Domain Name</li>
-							</ul>
-							<div class="button-head">
-								<div class="button">
-									<span></span>
-									<a href="#" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>buy now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="single-table">
-							<div class="table-head">
-								<div class="title-head">
-									<h2 class="title">Medium</h2>
-								</div>
-								<div class="price">
-									<p class="amount"><span>$</span>25</p>
-								</div>	
-							</div>
-							<ul class="table-list">
-								<li>Responsive( Mobile Website)</li>
-								<li>24/7 Technic Support</li>
-								<li>1 Year Hosting Free</li>
-								<li>Image slider (Animation)</li>
-								<li>Unlimited Email Account</li>
-								<li>Free Domain Name</li>
-							</ul>
-							<div class="button-head">
-								<div class="button">
-									<span></span>
-									<a href="#" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>buy now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="single-table">
-							<div class="table-head">
-								<div class="title-head">
-									<h2 class="title">Advanced</h2>
-								</div>
-								<div class="price">
-									<p class="amount"><span>$</span>55</p>
-								</div>	
-							</div>
-							<ul class="table-list">
-								<li>Responsive( Mobile Website)</li>
-								<li>24/7 Technic Support</li>
-								<li>1 Year Hosting Free</li>
-								<li>Image slider (Animation)</li>
-								<li>Unlimited Email Account</li>
-								<li>Free Domain Name</li>
-							</ul>
-							<div class="button-head">
-								<div class="button">
-									<span></span>
-									<a href="#" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>buy now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>	
-			</div>	
-		</section>	 -->
-		<!--/ End Pricing Table -->
-		
-		<!-- Map -->
-		<!-- <div id="gmap">
-			<div id="map"></div>
-		</div> -->
-		<!-- End Map -->	
-		
-		<!--/ contact Area -->
-		<!-- <section id="contact" class="contact section" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="row">
-					<div class="contact-head">
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<div class="contact-left">
-								<h3>Contact <span>us now</span></h3>
-								<p class="p1">Aercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
-								
-							</div>
-						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12">
-							<div class="contact-right">
-								<div class="row">
-									<form class="form" action="#">
-										<div class="col-md-6">
-											<div class="form-group">
-												<input name="name" type="text" placeholder="full name">
-											</div>
-											<div class="form-group">
-												<input name="email" type="email" placeholder="enter your email">
-											</div>
-											<div class="button">
-												<button type="submit" class="btn primary">Submit<i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<textarea name="message" placeholder="type your message"></textarea>
-											</div>
-											
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!--/ End contact Area -->
-		
-		<!-- Clients Area -->
-		<!-- <div id="clients" class="clients section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="owl-carousel clients-slider">
-							
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client1.jpg')?>" alt="#">
-							</div>
-							
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client2.jpg')?>" alt="#">
-							</div>
-							
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client3.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client4.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client5.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client6.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client1.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client2.jpg')?>" alt="#">
-							</div>
-							 
-							<div class="single-clients">
-								<img src="<?php echo base_url('assets/seleksi/img/client3.jpg')?>" alt="#">
-							</div>
-							 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		  
-	</body>	
-	<script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>

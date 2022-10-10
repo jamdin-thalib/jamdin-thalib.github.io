@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost:8080/';
+    public $baseURL = '';
 
     /**
      * --------------------------------------------------------------------------
@@ -36,7 +36,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $indexPage = 'index.php';
+    public $indexPage = '';
 
     /**
      * --------------------------------------------------------------------------
@@ -69,7 +69,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $defaultLocale = 'en';
+    public $defaultLocale = 'id';
 
     /**
      * --------------------------------------------------------------------------
@@ -83,7 +83,7 @@ class App extends BaseConfig
      *
      * @var bool
      */
-    public $negotiateLocale = false;
+    public $negotiateLocale = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -96,7 +96,7 @@ class App extends BaseConfig
      *
      * @var string[]
      */
-    public $supportedLocales = ['en'];
+    public $supportedLocales = ['id','en'];
 
     /**
      * --------------------------------------------------------------------------
@@ -108,7 +108,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $appTimezone = 'America/Chicago';
+    public $appTimezone = 'Asia/Makassar';
 
     /**
      * --------------------------------------------------------------------------
@@ -162,7 +162,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $sessionCookieName = 'ci_session';
+    public $sessionCookieName = 'ci_session_diskominfo';
 
     /**
      * --------------------------------------------------------------------------
@@ -174,7 +174,7 @@ class App extends BaseConfig
      *
      * @var int
      */
-    public $sessionExpiration = 7200;
+    public $sessionExpiration = 3600;
 
     /**
      * --------------------------------------------------------------------------

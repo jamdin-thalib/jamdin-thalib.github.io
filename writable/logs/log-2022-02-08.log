@@ -1,0 +1,15 @@
+ERROR - 2022-02-08 20:58:52 --> Column 'nik' in where clause is ambiguous
+CRITICAL - 2022-02-08 20:58:52 --> Column 'nik' in where clause is ambiguous
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `pendaft...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendaft...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendaft...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `pendaft...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 /var/www/diskominfo/app/Models/Pendaftaran_model.php(62): CodeIgniter\BaseModel->findAll(10, 0)
+#7 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(32): App\Models\Pendaftaran_model->get_datatables()
+#8 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->ajax_list()
+#9 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#10 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -4,12 +4,12 @@ class Rfk_model extends Model
 
 { 
     protected $table = 'tabel_rfk';
-    
+    protected $allowedFields = ['tgl_pengesahan_rfk','nama_dok_rfk','file_rfk','uraian_rfk'];
     // datatables
     private function _get_datatables_query()
 	{
-        $column_order = array('tgl_pengesahan_rfk.tabel_rfk','nama_dok_rfk.tabel_rfk','file_rfk.tabel_rfk','uraian_rfk.tabel_rfk',null);
-        $column_search = array('tgl_pengesahan_rfk.tabel_rfk','nama_dok_rfk.tabel_rfk','file_rfk.tabel_rfk','uraian_rfk.tabel_rfk',null);
+        $column_order = array('tabel_rfk.tgl_pengesahan_rfk','tabel_rfk.nama_dok_rfk','tabel_rfk.file_rfk','tabel_rfk.uraian_rfk',null);
+        $column_search = array('tabel_rfk.tgl_pengesahan_rfk','tabel_rfk.nama_dok_rfk','tabel_rfk.file_rfk','tabel_rfk.uraian_rfk',null);
         $orders = array('id' => 'asc');
 
         $this->db->table('tabel_rfk');

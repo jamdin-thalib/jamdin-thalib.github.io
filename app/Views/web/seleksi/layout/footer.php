@@ -86,20 +86,20 @@
         <script src="<?php echo base_url('assets/seleksi/js/bootstrap.min.js')?>"></script>
 		<script src="<?php echo base_url('assets/seleksi/js/colors.js')?>"></script>
         <script src="<?php echo base_url('assets/seleksi/js/jquery.nav.js')?>"></script>
-        <script src="assets/seleksi/js/jquery.scrollUp.min.js"></script>
-        <script src="assets/seleksi/js/jquery.slicknav.min.js"></script>
+        <script src="<?php echo base_url('assets/seleksi/js/jquery.scrollUp.min.js')?>"></script>
+        <script src="<?php echo base_url('assets/seleksi/js/jquery.slicknav.min.js')?>"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-        <script src="assets/seleksi/js/owl.carousel.min.js"></script>
-		<script src="assets/seleksi/js/isotope.pkgd.min.js"></script>
-		<script src="assets/seleksi/js/wow.min.js"></script>
-		<script src="assets/seleksi/js/jquery.stellar.min.js"></script>
-		<script src="assets/seleksi/js/jquery.magnific-popup.min.js"></script>
-		<script src="assets/seleksi/js/animate-text.js"></script>
-		<script src="assets/seleksi/js/particles.min.js"></script>
-		<script src="assets/seleksi/js/particle-code.js"></script>
-		<script src="assets/seleksi/js/jquery.counterup.min.js"></script>
+        <script src="<?php echo base_url('assets/seleksi/js/owl.carousel.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/isotope.pkgd.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/wow.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/jquery.stellar.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/jquery.magnific-popup.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/animate-text.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/particles.min.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/particle-code.js')?>"></script>
+		<script src="<?php echo base_url('assets/seleksi/js/jquery.counterup.min.js')?>"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
-        <script type="text/javascript" src="assets/seleksi/js/gmaps.min.js"></script>
-        <script src="assets/seleksi/js/main.js"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/seleksi/js/gmaps.min.js')?>"></script>
+        <script src="<?php echo base_url('assets/seleksi/js/main.js')?>"></script>
     
 </html>

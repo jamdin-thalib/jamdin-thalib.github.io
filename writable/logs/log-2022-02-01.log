@@ -1,0 +1,547 @@
+ERROR - 2022-02-01 00:20:50 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:20:50 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:21:08 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:21:08 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:21:10 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:21:10 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:21:42 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:21:42 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(122): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:23:40 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:23:40 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(122): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:24:09 --> Unknown column 'id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:24:09 --> Unknown column 'id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(122): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:25:06 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:25:06 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(122): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:27:36 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:27:36 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:31:54 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:31:54 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-01 00:33:45 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+CRITICAL - 2022-02-01 00:33:45 --> Unknown column 'file_berkas.id_berkas' in 'where clause'
+#0 /var/www/diskominfo/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/diskominfo/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/diskominfo/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/diskominfo/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/diskominfo/system/Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/diskominfo/app/Models/Pendaftaran_model.php(121): CodeIgniter\Model->__call('get', Array)
+#6 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#7 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#8 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#9 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-01 00:34:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::qery()
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:35:10 --> Call to undefined method App\Models\Pendaftaran_model::getRow
+#0 /var/www/diskominfo/app/Models/Pendaftaran_model.php(120): CodeIgniter\Model->__call('getRow', Array)
+#1 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#2 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#3 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#4 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-01 00:35:24 --> Undefined property: stdClass::$file_berkas
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/diskom...', 207, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:35:54 --> Undefined property: stdClass::$file_berkas
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/diskom...', 207, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:35:57 --> Undefined property: stdClass::$file_berkas
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/diskom...', 207, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:36:41 --> Undefined property: stdClass::$file
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/diskom...', 207, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:37:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(207): App\Models\Pendaftaran_model->getFoto('12')
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->cetak('34')
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:44:32 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 01:01:57 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 01:02:02 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 01:25:38 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 01:25:42 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 01:25:46 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 01:25:47 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 01:27:47 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 01:27:48 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 09:33:37 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 09:33:38 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 11:54:53 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 11:54:53 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 13:45:48 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 13:45:49 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 13:46:35 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:03:43 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:03:43 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:03:46 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:10:40 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:10:48 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:10:48 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:12:26 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:12:26 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:18:38 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:18:38 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:18:42 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:18:42 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:19:39 --> Undefined variable: get
+#0 /var/www/diskominfo/app/Views/layout/footer_seleksi.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 329, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\layo...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Home.php(113): view('\\App\\Views\\layo...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->layanan()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 14:39:53 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-01 14:45:10 --> Call to undefined function class="form-control pro-edt-select form-control-primary" id="jenis_kelamin" ()
+#0 /var/www/diskominfo/system/View/View.php(214): include()
+#1 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\web\\...', Array, true)
+#3 /var/www/diskominfo/app/Controllers/Home.php(128): view('\\App\\Views\\web\\...', Array)
+#4 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#5 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 14:45:10 --> Call to undefined function class="form-control pro-edt-select form-control-primary" id="jenis_kelamin" ()
+#0 /var/www/diskominfo/system/View/View.php(214): include()
+#1 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\web\\...', Array, true)
+#3 /var/www/diskominfo/app/Controllers/Home.php(128): view('\\App\\Views\\web\\...', Array)
+#4 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#5 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 17:33:04 --> Undefined variable: tanggal_lahir
+#0 /var/www/diskominfo/app/Helpers/my_helper.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 41, Array)
+#1 /var/www/diskominfo/app/Views/register.php(50): hitungUmur('1992-11-28')
+#2 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#3 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('register', Array, true)
+#5 /var/www/diskominfo/app/Controllers/Login.php(40): view('register')
+#6 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Login->register()
+#7 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-01 18:38:48 --> DateTime::__construct(): Failed to parse time string (1) at position 0 (1): Unexpected character
+#0 /var/www/diskominfo/app/Helpers/my_helper.php(52): DateTime->__construct('1')
+#1 /var/www/diskominfo/app/Controllers/Auth.php(193): cekUmur(true)
+#2 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->save()
+#3 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-01 19:22:37 --> Trying to get property 'posisi' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 123, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

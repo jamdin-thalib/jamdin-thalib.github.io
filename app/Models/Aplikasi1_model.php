@@ -6,11 +6,11 @@ class Aplikasi1_model extends Model
 
 { 
     protected $table = 'aplikasi1';
-    
+    protected $allowedFields = ['tgl_aplikasi1','nama_aplikasi1','penggagas1','manual_book1','file_manualbook1','jenis_aplikasi1','bahasa_pemograman1','deskripsi_aplikasi1'];
     // datatables
     private function _get_datatables_query(){
-        $column_order = array('nama_aplikasi1.aplikasi1','penggagas1.aplikasi1','manual_book1.aplikasi1','jenis_aplikasi1.aplikasi1','bahasa_pemograman1.aplikasi1',null);
-        $column_search = array('nama_aplikasi1.aplikasi1','penggagas1.aplikasi1','manual_book1.aplikasi1','jenis_aplikasi1.aplikasi1','bahasa_pemograman1.aplikasi1');
+        $column_order = array('aplikasi1.tgl_aplikasi1','aplikasi1.nama_aplikasi1','aplikasi1.penggagas1','aplikasi1.manual_book1','aplikasi1.file_manualbook1','aplikasi1.jenis_aplikasi1','aplikasi1.bahasa_pemograman1','aplikasi1.deskripsi_aplikasi1',null);
+        $column_search = array('aplikasi1.tgl_aplikasi1','aplikasi1.nama_aplikasi1','aplikasi1.penggagas1','aplikasi1.manual_book1','aplikasi1.file_manualbook1','aplikasi1.jenis_aplikasi1','aplikasi1.bahasa_pemograman1','aplikasi1.deskripsi_aplikasi1');
         $orders = array('id' => 'asc');
 
         $this->db->table('aplikasi1');

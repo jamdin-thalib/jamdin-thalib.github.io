@@ -17,11 +17,16 @@
 <body>
 <div class="col-lg-12">
     <div class="card">
-        <div class="card-header d-block">
-            <h5 class="card-title">Strutur Organisasi</h5>
-        </div>
+                <div class="accordion__header accordion__header--primary" data-toggle="collapse" data-target="#gradient_collapseOne"> <span class="accordion__header--icon"></span>
+                        <span class="title"><h3 class="text center">STRUKTUR ORGANISASI</h3></span>
+                        <span class="accordion__header--indicator"></span>
+                    </div>
+        
         <div class="card-body">
             <div id="accordion-twelve" class="accordion accordion-rounded-stylish accordion-gradient">
+            <div class="accordion__item">
+                    
+                    
 <!-- ============================================================================ -->
                 <div class="accordion__item">
                     <div class="accordion__header accordion__header--primary" data-toggle="collapse" data-target="#gradient_collapseOne"> <span class="accordion__header--icon"></span>

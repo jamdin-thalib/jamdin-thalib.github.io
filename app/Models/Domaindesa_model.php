@@ -6,12 +6,13 @@ class Domaindesa_model extends Model
 
 { 
     protected $table = 'domain_desa';
+    protected $allowedFields = ['nama_domain','domain_status','tgl_daftar','tgl_akhir','masa_aktif','link'];
     
     // datatables
     private function _get_datatables_query()
 	{
-        $column_order = array('nama_domain.domain_desa','domain_status.domain_desa','tgl_daftar.domain_desa','tgl_akhir.domain_desa','masa_aktif.domain_desa','link.domain_desa',null);
-        $column_search = array('nama_domain.domain_desa','domain_status.domain_desa','tgl_daftar.domain_desa','tgl_akhir.domain_desa','masa_aktif.domain_desa','link.domain_desa',null);
+        $column_order = array('domain_desa.nama_domain','domain_desa.domain_status','domain_desa.tgl_daftar','domain_desa.tgl_akhir','domain_desa.masa_aktif','domain_desa.link',null);
+        $column_search = array('domain_desa.nama_domain','domain_desa.domain_status','domain_desa.tgl_daftar','domain_desa.tgl_akhir','domain_desa.masa_aktif','domain_desa.link',null);
         $orders = array('id' => 'asc');
 
         $this->db->table('domain_desa');

@@ -1,96 +1,110 @@
-	<!-- Content Wrapper. Contains page content -->
-	<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-		<section class="content-header">
-			<h1>
-			  <?php echo lang('create_user_heading');?>
-			</h1>
-			<ol class="breadcrumb">
-			  <li><a href="<?php echo site_url("ideas_admin");?>"><i class="fa fa-dashboard"></i> Home</a></li>
-			  <li><a href="<?php echo site_url("auth");?>"><?php echo lang('index_heading');?></a></li>
-			  <li class="active"><?php echo lang('create_user_heading');?></li>
-			</ol>
-		</section>
-		<!-- Main content -->
-		<section class="content">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="box box-primary">
-						<div class="box-header with-border">
-							<i class="ion ion-clipboard"></i>
-							<h3 class="box-title"><?php echo lang('create_user_subheading');?></h3>
-							<!-- tools box -->
-							<div class="pull-right box-tools">
-								<!-- button with a dropdown -->
-								<div class="btn-group">
-									<button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i></button>
-									<ul class="dropdown-menu pull-right" role="menu">
-										<li><?php echo anchor('auth/create_user', lang('index_create_user_link'))?></li>
-										<li><?php echo anchor('auth/create_group', lang('index_create_group_link'))?></li>
-										<li class="divider"></li>
-										<li><a href="#">View calendar</a></li>
-									</ul>
-								</div>
-								<button type="button" class="btn btn-success btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
-								<button type="button" class="btn btn-success btn-sm" data-widget="remove"><i class="fa fa-times"></i>			</button>
-							</div>
-							<!-- /. tools -->
-						</div>
-						<!-- /.box-header -->
-						<?php echo form_open("auth/create_user",array("role"=>"form","class"=>"mode2"));?>
-						  <div class="box-body">
-							 <div class="item form-group">
-								<?php echo lang('create_user_fname_label', 'first_name');?> <br />
-								<?php echo form_input('first_name','','class="form-control" required="required"');?>
-							 </div>
-							 <div class="item form-group">
-								<?php echo lang('create_user_lname_label', 'last_name');?> <br />
-								<?php echo form_input('last_name','','class="form-control" required="required"');?>
-							 </div>
-							 <?php
-								if($identity_column!=='email') {
-									 echo '<div class="form-group">';
-									 echo lang('create_user_identity_label', 'identity');
-									 echo '<br />';
-									 echo form_error('identity');
-									 echo form_input('identity','','class="form-control" required="required"');
-									 echo '</div>';
-								}
-								?>
-							 <div class="form-group">
-								<?php echo lang('create_user_company_label', 'company');?> <br />
-								<?php echo form_input('company','','class="form-control"');?>
-							 </div>
-							 <div class="form-group">
-								<?php echo lang('create_user_email_label', 'email');?> <br />
-								<?php echo form_input('email','','class="form-control" required="required"');?>
-							 </div>
-							 <div class="form-group">
-								<?php echo lang('create_user_phone_label', 'phone');?> <br />
-								<?php echo form_input('phone','','class="form-control" required="required"');?>
-							 </div>
-							 <div class="form-group">
-								<?php echo lang('create_user_password_label', 'password');?> <br />
-								<?php echo form_password('password','','class="form-control" required="required"');?>
-							 </div>
-							 <div class="form-group">
-								<?php echo lang('create_user_password_confirm_label', 'password_confirm');?><br />
-								<?php echo form_password('password_confirm','','class="form-control" required="required"');?>
-							 </div>
-						  </div>
-						  <!-- /.box-body -->
-
-						  <div class="box-footer">
-							 <button type="submit" class="btn btn-primary"><?php echo lang('create_user_submit_btn');?></button>
-						  </div>
-						<?php echo form_close();?>
-					</div>
-				 <!-- /.box -->
-				</div>
-			  <!-- /.col -->
-			</div>
-			<!-- /.row -->
-		</section>
-    <!-- /.content -->
-	</div>
-	<!-- /.content-wrapper -->
+<?= form_open("admin/auth/save",array("class"=>"form-horizontal"));?>
+<div class="modal-dialog <?php echo isset($modal_s) ? $modal_s : 'modal-lg'; ?>">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close text-red" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            <h1><?= $title;?></h1>
+            <p><?= $sub_title;?></p>
+        </div>
+        <div class="modal-body">
+            <div class="box-body">
+                <div class="form-group mode2">
+                    <?= form_label(lang('Auth.create_user_name_label'), 'nama_user',array("class"=>"col-sm-3 control-label")); ?>
+                    <div class="col-sm-8 item">
+                        <input type="text" name="nama_user" value="<?= isset($user->nama_user) ? $user->nama_user : ''; ?>" id="nama_user" class="form-control" required="required" />
+                    </div>
+                </div>
+            <?php if ($identity_column !== 'email') { ?>
+                <div class="form-group mode2">
+                    <label for="identity" class="col-sm-3 control-label">Username</label>
+                    <?= form_label(lang('Auth.create_user_identity_label'), 'identity',array("class"=>"col-sm-3 control-label")); ?>
+                    <div class="col-sm-8 item">
+                        <?= form_input($identity);?>
+                        <input type="text" name="identity" value="<?= isset($user->identity) ? $user->identity : ''; ?>" id="identity" class="form-control" required="required" />
+                    </div>
+                    <?= '<p>'. \Config\Services::validation()->getError('identity'). '</p>'; ?>
+                </div>
+            <?php } ?>
+                <div class="form-group mode2">
+                    <?php echo form_label(lang('Auth.create_user_email_label'), 'email',array("class"=>"col-sm-3 control-label"));?>
+                    <div class="col-sm-8 item">
+                        <input type="text" name="email" value="<?= isset($user->email) ? $user->email : ''; ?>" id="email" class="form-control" required="required" />
+                    </div>
+                </div>
+                <div class="form-group mode2">
+                    <?php echo form_label(lang('Auth.create_user_phone_label'), 'phone',array("class"=>"col-sm-3 control-label"));?>
+                    <div class="col-sm-8 item">
+                        <input type="text" name="phone" value="<?= isset($user->phone) ? $user->phone : '08xx-xxxx-xxxx'; ?>" id="phone" class="form-control" required="required" />
+                    </div>
+                </div>
+                <?php if ($action == 'update'): ?>
+                <div class="form-group mode2">
+                    <label for="jenis_user" class="col-sm-3 control-label">Jenis User **</label>
+                    <?php foreach ($groups as $group):?>
+                    <div class="col-sm-3 item">
+                        <?php $gID = $group->id;
+                        $checked = null;
+                        foreach($currentGroups as $grp) {
+                            if ($gID == $grp->id) {
+                                $checked= ' checked="checked"';
+                                break;
+                            }
+                        } ?>
+                        <input type="checkbox" name="groups[]" value="<?= $group->id;?>"<?= $checked;?> class="flat">
+                        <?= htmlspecialchars($group->name,ENT_QUOTES,'UTF-8');?>
+                    </div>
+                    <?php endforeach ?>
+                </div>
+                <?php endif ?>
+                <div class="form-group mode2">
+                    <?php echo form_label(lang('Auth.create_user_password_label'), 'password',array("class"=>"col-sm-3 control-label"));?>
+                    <div class="col-sm-8 item">
+                        <input type="password" name="password" value="" id="password" class="form-control" <?= isset($required) ? $required : ''; ?> />
+                    </div>
+                </div>
+                <div class="form-group mode2">
+                    <?php echo form_label(lang('Auth.create_user_password_confirm_label'), 'password_confirm',array("class"=>"col-sm-3 control-label"));?>
+                    <div class="col-sm-8 item">
+                        <input type="password" name="password_confirm" value="" id="password_confirm" class="form-control" <?= isset($required) ? $required : ''; ?> />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input type="hidden" name="action" value="<?= $action; ?>" />
+            <input type="hidden" name="id" value="<?= isset($user->id) ? $user->id : ''; ?>" />
+            <button type="submit" class="btn btn-primary pull-right"><i class="fa fa-send"></i> <?= $btn; ?></a></button>
+        </div>
+    </div>
+</div>
+<?= form_close();?>
+<script src="<?= base_url('assets/admin/validator.js');?>"></script>
+<script type="text/javascript">
+    $('form').on('blur', 'input[required], input.optional, select.required', validator.checkField).on('change', 'select.required', validator.checkField).on('keypress', 'input[required][pattern]', validator.keypress);
+    $('.multi.required').on('keyup blur', 'input', function(){
+        validator.checkField.apply( $(this).siblings().last()[0] );
+    });
+    $('form').submit(function(e){
+        e.preventDefault();
+        if( !validator.checkAll( $(this) ) ){
+            false;
+        }else{
+            $.ajax({
+                url: $(this).attr("action"),
+                type: 'post',
+                data: $("form").serialize(),
+                success: function(response){
+                    var data = $.parseJSON(response);
+                    swal({title:data.title,html:data.text,type:data.type}).then(function() {
+                        reload_table();
+                        $('#modal_content').modal('hide');
+                    });
+                },error: function (jqXHR, exception, thrownError) {
+                    swal({title:"Error code"+jqXHR.status,html:thrownError+", "+exception,type:"error"}).then(function() {
+                        $("#spinner").hide();
+                    });
+                }
+            });
+        }
+    });
+</script>

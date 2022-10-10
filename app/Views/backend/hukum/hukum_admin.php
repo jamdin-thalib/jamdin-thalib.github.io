@@ -48,10 +48,17 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="product-status-wrap">
                                                             <h4>Produk Hukum List</h4>
+                                                            <div class="alert alert-success alert-success-style1">
+                                                                <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                                                        <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                <i class="fa fa-check adminpro-checked-pro admin-check-pro" aria-hidden="true"></i>
+                                                                <p><strong><?= isset($pesan) ? $pesan : ''; ?>....!</strong> Successful or positive action.</p>
+                                                            </div>
                                                             <div class="add-product">
                                                                 <a href="<?php echo base_url('backend/hukum/hukum_input')?>">Add Produk Hukum</a>
                                                             </div>
-                                                            <table>
+                                                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
                                                                 <thead>
                                                                     <tr>
                                                                         <th>Id</th>
@@ -63,16 +70,16 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <?php $no=1; foreach($hukum as $hukum) { ?>
+                                                                    <?php $no=1; foreach($hukum as $row) { ?>
                                                                     <tr>
                                                                         <td class="text-center"><?php echo $no ?></td>
-                                                                        <td class="text-center"><?php echo $hukum['tgl_produkh'] ?></td>
-                                                                        <td class="text-center"><?php echo $hukum['nama_produkh'] ?></td>
-                                                                        <td class="text-center"><?php echo $hukum['status'] ?></td>
-                                                                        <td class="text-center"><?php echo $hukum['uraianh'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['tgl_produkh'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['nama_produkh'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['status'] ?></td>
+                                                                        <td class="text-center"><?php echo $row['uraianh'] ?></td>
                                                                         <td>
-                                                                            <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                                                            <a data-toggle="tooltip" title="Edit" class="pd-setting-ed" href="<?= site_url('backend/hukum/edit_hukum/'.$row['id']) ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                                            <a data-toggle="tooltip" title="Trash" class="pd-setting-ed" href="<?= site_url('backend/hukum/hapus/'.$row['id']) ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                                                         </td>
                                                                     </tr>
                                                                     <?php $no++; } ?>
@@ -95,142 +102,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="product-tab-list tab-pane fade" id="dpa">
-                                        <div class="product-status mg-tb-15">
-                                            <div class="container-fluid">
-                                                <div class="row">
-                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                        <div class="product-status-wrap">
-                                                            <h4>DPA List</h4>
-                                                            <div class="add-product">
-                                                                <a href="<?php echo base_url('Dpa_input')?>">Add DPA</a>
-                                                            </div>
-                                                            <table>
-                                                                <tr>
-                                                                    <th>Id</th>
-                                                                    <th>Tanggal Pembuatan</th>
-                                                                    <th>Nama Sub Domain</th>
-                                                                    <th>Status</th>
-                                                                    <th>Dinas Pengelola</th>
-                                                                    <th>Nama Pengelola</th>
-                                                                    <th>No Telpon</th>
-                                                                    <th>Dekripsi</th>
-                                                                    <th>Setting</th>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/5-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 1</td>
-                                                                    <td>50</td>
-                                                                    <td>
-                                                                        <button class="pd-setting">Active</button>
-                                                                    </td>
-                                                                    <td>50</td>
-                                                                    <td>$750</td>
-                                                                    <td>Out Of Stock</td>
-                                                                    <td>$15</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/6-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 2</td>
-                                                                    <td>60</td>
-                                                                    <td>
-                                                                        <button class="ps-setting">Paused</button>
-                                                                    </td>
-                                                                    <td>60</td>
-                                                                    <td>$1020</td>
-                                                                    <td>In Stock</td>
-                                                                    <td>$17</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/7-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 3</td>
-                                                                    <td>70</td>
-                                                                    <td>
-                                                                        <button class="ds-setting">Disabled</button>
-                                                                    </td>
-                                                                    <td>70</td>
-                                                                    <td>$1050</td>
-                                                                    <td>Low Stock</td>
-                                                                    <td>$15</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/5-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 4</td>
-                                                                    <td>120</td>
-                                                                    <td>
-                                                                        <button class="pd-setting">Active</button>
-                                                                    </td>
-                                                                    <td>120</td>
-                                                                    <td>$1440</td>
-                                                                    <td>In Stock</td>
-                                                                    <td>$12</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/6-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 5</td>
-                                                                    <td>30</td>
-                                                                    <td>
-                                                                        <button class="pd-setting">Active</button>
-                                                                    </td>
-                                                                    <td>30</td>
-                                                                    <td>$540</td>
-                                                                    <td>Out Of Stock</td>
-                                                                    <td>$18</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><img src="img/new-product/7-small.jpg" alt="" /></td>
-                                                                    <td>Jewelery Title 6</td>
-                                                                    <td>400</td>
-                                                                    <td>
-                                                                        <button class="ps-setting">Paused</button>
-                                                                    </td>
-                                                                    <td>400</td>
-                                                                    <td>$4000</td>
-                                                                    <td>In Stock</td>
-                                                                    <td>$10</td>
-                                                                    <td>
-                                                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                                                        <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                            <div class="custom-pagination">
-                                                                <nav aria-label="Page navigation example">
-                                                                    <ul class="pagination">
-                                                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                                                    </ul>
-                                                                </nav>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>  -->
                                 </div> 
                             </div> 
                         </div> 

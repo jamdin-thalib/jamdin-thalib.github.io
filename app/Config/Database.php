@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => '',
         'password' => '',
-        'database' => 'kominfo',
+        'database' => '',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

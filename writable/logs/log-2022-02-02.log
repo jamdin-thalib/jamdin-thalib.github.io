@@ -1,0 +1,114 @@
+CRITICAL - 2022-02-02 09:05:08 --> Undefined index: nama_depan
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_pendaftaran.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/diskom...', 57, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(21): view('backend/layanan...', Array)
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->index()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 10:40:21 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 10:40:41 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 10:40:59 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-02 11:34:46 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+ERROR - 2022-02-02 11:34:51 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to tls://smtp.googlemail.com:465 (Network is unreachable)
+ERROR - 2022-02-02 11:35:14 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+ERROR - 2022-02-02 11:35:36 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+ERROR - 2022-02-02 11:53:38 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+CRITICAL - 2022-02-02 13:16:30 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-02 16:19:59 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+ERROR - 2022-02-02 16:34:15 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+CRITICAL - 2022-02-02 16:55:33 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-02 17:01:46 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+CRITICAL - 2022-02-02 17:44:16 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 17:46:23 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 125, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 18:57:49 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 19:26:19 --> Trying to get property 'posisi' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 123, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 21:16:44 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 22:13:06 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 22:37:25 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 22:45:58 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('pdf')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

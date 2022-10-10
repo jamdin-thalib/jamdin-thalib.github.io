@@ -30,6 +30,8 @@
             </div>
         </div> -->
         <!-- Single pro tab start-->
+        <?= form_open('backend/hukum/save');?>
+        <div class='modal-dialog <?= isset($modal_s) ? $modal_s : 'modal-lg'; ?>'></div>
         <div class="single-product-tab-area mg-tb-15">
             <!-- Single pro tab review Start-->
             <div class="single-pro-review-area">
@@ -49,41 +51,31 @@
                                                     <label for="card-number" class="form-label">Tanggal Pembuatan</label>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-qrcode" aria-hidden="true"></i></span>
-                                                        <input type="date" class="form-control" placeholder="Tanggal Pembuatan">
+                                                        <input type="date" class="form-control" id="tgl_produkh" name="tgl_produkh" value='<?= (isset($get->tgl_produkh)) ? $get->tgl_produkh : ''; ?>' placeholder="Tanggal Pembuatan" required='required'>
                                                     </div>
-                                                    <label for="card-number" class="form-label">Name Pengelola</label>
+                                                    <label for="card-number" class="form-label">Nama Produk Hukum</label>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Name Pengelola di Wajibkan ASN">
+                                                        <input type="text" class="form-control" id="nama_produkh" name="nama_produkh" value='<?= (isset($get->nama_produkh)) ? $get->nama_produkh : ''; ?>' placeholder="Nama Produk Hukum" required='required'>
                                                     </div>
-                                                    <label for="card-number" class="form-label">Nomor Telpon</label>
+                                                    <label for="card-number" class="form-label">Upload File</label>
                                                     <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Nomor Telpon Penanggung Jawab">
+                                                        <span class="input-group-addon"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span>
+                                                        <input type="file" class="form-control" id="file_hukum" name="file_hukum" value='<?= (isset($get->file_hukum)) ? $get->file_hukum : ''; ?>' placeholder="Di isi nama Dinas Selakua pengelola" required='required'>
                                                     </div>
-                                                    <label for="card-number" class="form-label">Dinas Pengelola</label>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Dinas Pengelola">
-                                                    </div>
-                                                    <label for="card-number" class="form-label">Alamat Url Http://</label>
-                                                    <div class="input-group mg-b-pro-edt">
-                                                        <span class="input-group-addon"><i class="fa fa-sticky-note-o" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Alamat Url @bolmutkab.go.id">
-                                                    </div>
-                                                    <label for="card-number" class="form-label">Status Domain</label>
+                                                    <label for="card-number" class="form-label">Status Produk Hukum</label>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                                                        <select name="select" class="form-control pro-edt-select form-control-primary">
-															<option value="opt1">--Status--</option>
-															<option value="opt2">Active</option>
-															<option value="opt3">Suspen</option>
+                                                        <select name="status" id="file_hukum" value='<?= (isset($get->status)) ? $get->status : ''; ?>' class="form-control pro-edt-select form-control-primary" required='required'>
+															<option value="">--Status--</option>
+															<option value="Berlaku">Berlaku</option>
+															<option value="Revisi">Tidak Berlaku</option>
 														</select>
                                                     </div>
                                                     <label for="card-number" class="form-label">Domain Description</label>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-ticket" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" placeholder="Domain Description">
+                                                        <input type="text" class="form-control" id="uraianh" name="uraianh" value='<?= (isset($get->uraianh)) ? $get->uraianh : ''; ?>' placeholder="Domain Description" required='required'>
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,9 +83,10 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="text-center mg-b-pro-edt custom-pro-edt-ds">
-                                                    <button type="button" class="btn btn-primary waves-effect waves-light m-r-10">Save
-													</button>
-                                                    <a href="<?php echo base_url('bacend/hukum')?>"><button type="button" class="btn btn-warning waves-effect waves-light" >Discard</button></a>
+                                                    <input type='hidden' name='action' value='<?= $action; ?>' />
+                                                    <input type='hidden' name='id' value='<?php echo (isset($get->id)) ? $get->id: ''; ?>' />
+                                                    <button type="submit" class="btn btn-primary waves-effect waves-light m-r-10">Save</button>
+                                                    <a href="<?php echo base_url('backend/hukum')?>"><button type="button" class="btn btn-warning waves-effect waves-light" >Discard</button></a>
                                                 </div>
                                             </div>
                                         </div>

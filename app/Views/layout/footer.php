@@ -4,20 +4,24 @@
         <p class="fl_right"> <a target="_blank" href="" title="Free Website Templates">diskominfo.bolmutkab.go.id</a></p>
       </div>
     </div>
-
   <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
   <!-- ################################################################################################ -->
   <!-- JAVASCRIPTS -->
+  <link href="<?= base_url('assets/layout/styles/style.css') ?>" rel="stylesheet" type="text/css" media="all">
   <script src="<?php echo base_url('assets/css/bootstrap.min.css')?>"></script>
   <script src="<?php echo base_url('assets/layout/scripts/adminlte.min.js')?>"></script>
   <script src="<?php echo base_url('assets/layout/scripts/bootstrap.min.js')?>"></script>
   <script src="<?php echo base_url('assets/build/js/ControlSidebar.js')?>"></script>
   <!-- JAVASCRIPTS -->
+  <script src="<?php echo base_url('assets/layout/scripts/jquery.min.js')?>"></script>
   <script src="<?php echo base_url('assets/layout/scripts/jquery.backtotop.js')?>"></script>
   <script src="<?php echo base_url('assets/layout/scripts/jquery.mobilemenu.js')?>"></script>
   <!-- Homepage specific -->
   <script src="<?php echo base_url('assets/layout/scripts/jquery.easypiechart.min.js')?>"></script>
-    
+  <script src="<?php echo base_url('assets/css/style.css')?>"></script>
+  <script src="<?php echo base_url('assets/css/perfect-scrollbar.css')?>"></script>
+  <script src="<?php echo base_url('assets/css/colorpicker.css')?>"></script>
+  
   <!-- / Homepage specific -->
   </body>
 </html>

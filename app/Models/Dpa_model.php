@@ -4,12 +4,12 @@ class Dpa_model extends Model
 
 { 
     protected $table = 'tabel_dpa';
-    
+    protected $allowedFields = ['tgl_pengesahan_dpa','nama_dok_dpa','file_dpa','uraian_dpa'];
     // datatables
     private function _get_datatables_query()
 	{
-        $column_order = array('tgl_pengesahan_rka.tabel_dpa','nama_dok_dpa.tabel_rka','file_dpa.tabel_rka','uraian_dpa.tabel_rka',null);
-        $column_search = array('tgl_pengesahan_rka.tabel_dpa','nama_dok_dpa.tabel_rka','file_dpa.tabel_rka','uraian_dpa.tabel_rka',null);
+        $column_order = array('tabel_dpa,tgl_pengesahan_dpa','tabel_dpa.nama_dok_dpa','tabel_dpa.file_dpa','tabel_dpa.uraian_dpa',null);
+        $column_search = array('tabel_dpa,tgl_pengesahan_dpa','tabel_dpa.nama_dok_dpa','tabel_dpa.file_dpa','tabel_dpa.uraian_dpa');
         $orders = array('id' => 'asc');
 
         $this->db->table('tabel_dpa');

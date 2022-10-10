@@ -30,15 +30,6 @@
 		
 		<!-- Color CSS -->
 		<link rel="stylesheet" href="<?php echo base_url('assets/seleksi/css/color/color7.css')?>">
-		<!--<link rel="stylesheet" href="css/color/color1.css">-->
-		<!--<link rel="stylesheet" href="css/color/color2.css">-->
-		<!--<link rel="stylesheet" href="css/color/color3.css">-->
-		<!--<link rel="stylesheet" href="css/color/color4.css">-->
-		<!--<link rel="stylesheet" href="css/color/color5.css">-->
-		<!--<link rel="stylesheet" href="css/color/color6.css">-->
-		<!--<link rel="stylesheet" href="css/color/color8.css">-->
-		<!--<link rel="stylesheet" href="css/color/color9.css">-->
-
 		<link rel="stylesheet" href="#" id="colors">
 		
 	

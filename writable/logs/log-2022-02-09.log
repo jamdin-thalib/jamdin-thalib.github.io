@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-09 14:59:49 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

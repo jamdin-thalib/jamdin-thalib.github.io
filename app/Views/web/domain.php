@@ -1,8 +1,8 @@
 <!-- <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css')?>" /> -->
 <section id="services" class="hoc container clear">
-<div class="span12">   
+    <div class="span12">   
         <div class="section-head text-left p-b20">
-            <h4 data-title="">Register Domain DISKOMINFO</h4>
+            <!-- <h4 data-title="">Register Domain DISKOMINFO</h4> -->
         </div>
         <div class="widget-box">
         <div class="widget-title">
@@ -15,7 +15,7 @@
             <div id="tab1" class="tab-pane active">
                 <table class="table table-hover table-bordered" width="100%">
                     <tr>
-                        <th class="text-center" style="vertical-align: middle;">Domain yang yang terdaftar di bolmutkab.go.id</th>
+                        <th class="text-center" style="vertical-align: middle;"><h4>Domain yang yang terdaftar di bolmutkab.go.id</h4></th>
                     </tr>
                 </table>
                 <div class="table-responsive">
@@ -24,13 +24,12 @@
                             <tr>
                                 <th style="vertical-align: middle;">No</th>
                                 <th style="vertical-align: middle;">Tanggal Pembuatan</th>
-                                <th style="vertical-align: middle;">Nama Domaian</th>
+                                <th style="vertical-align: middle;">Nama Sub Domaian</th>
                                 <th style="vertical-align: middle;">Domaian Status</th>
                                 <th style="vertical-align: middle;">Pengelola Domaian</th>
                                 <th style="vertical-align: middle;">Nama Pengelola Domaian</th>
                                 <th style="vertical-align: middle;">Kontak Pengelola</th>
                                 <th style="vertical-align: middle;">Deskripsi Domain</th>
-                                <th style="vertical-align: middle;">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,13 +37,12 @@
                                 <tr>
                                     <td class="text-center"><?php echo $no ?></td>
                                     <td class="text-center"><?php echo $bolmut['tgl_pembuatan'] ?></td>
-                                    <td class="text-center"><?php echo $bolmut['nama_subdomain'] ?></td>
+                                    <td><a href="<?php echo $bolmut['link'] ?>" target="_blank" class="site-button"> <i><?php echo $bolmut['nama_subdomain'] ?></i></a></td>
                                     <td class="text-center"><?php echo $bolmut['status_domain'] ?></td>
                                     <td class="text-center"><?php echo $bolmut['pengelola'] ?></td>
                                     <td class="text-center"><?php echo $bolmut['nama_pengelola'] ?></td>
                                     <td class="text-center"><?php echo $bolmut['no_telpon'] ?></td>
                                     <td class="text-center"><?php echo $bolmut['deskripsi'] ?></td>
-                                    <td align="center"><a href="<?php echo $bolmut['link'] ?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Link</a></td>
                                 </tr>
                             <?php $no++; } ?>
                         </tbody>
@@ -80,7 +78,7 @@
             <div id="tab1" class="tab-pane active">
                 <table class="table table-hover table-bordered" width="100%">
                     <tr>
-                        <th class="text-center" style="vertical-align: middle;">Domain desa.id yang terdaftar di Kementrian KOMINFO RI</th>
+                        <th class="text-center" style="vertical-align: middle;"><h4>Domain desa.id yang terdaftar di Kementrian KOMINFO RI</h4></th>
                     </tr>
                 </table>
                 <div class="table-responsive">
@@ -93,19 +91,17 @@
                                 <th style="vertical-align: middle;">Tanggal Pendaftaran</th>
                                 <th style="vertical-align: middle;">Tanggal Berakhir</th>
                                 <th style="vertical-align: middle;">Masa Aktif</th>
-                                <th style="vertical-align: middle;">Link</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php $no=1; foreach($desa as $desa) { ?>
                                 <tr>
                                     <td class="text-center"><?php echo $no ?></td>
-                                    <td class="text-center"><?php echo $desa['nama_domain'] ?></td>
+                                    <td><a href="<?php echo $desa['link'] ?>" target="_blank" class="site-button"><i><?php echo $desa['nama_domain'] ?></i></a></td>
                                     <td class="text-center"><?php echo $desa['domain_status'] ?></td>
                                     <td class="text-center"><?php echo $desa['tgl_daftar'] ?></td>
                                     <td class="text-center"><?php echo $desa['tgl_akhir'] ?></td>
                                     <td class="text-center"><?php echo $desa['masa_aktif'] ?></td>
-                                    <td align="center"><a href="<?php echo $desa['link'] ?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Link</a></td>
                                 </tr>
                             <?php $no++; } ?>
                         </tbody>
@@ -126,19 +122,19 @@
                             <tbody>
                                 <tr>
                                     <td style="vertical-align: middle;">Format Surat Permohonan</td>
-                                    <td align="center"><a href="" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
+                                    <td align="center"><a href="<?php echo base_url('assets/admin/file/boroko/PERMOHONAN DOMAIN DESA BOROKO.pdf')?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
                                 </tr>
                                 <tr>
                                     <td style="vertical-align: middle;">Format Surat Kuasa</td>
-                                    <td align="center"><a href="" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
+                                    <td align="center"><a href="<?php echo base_url('assets/admin/file/boroko/SURAT KUASA DESA BOROKO.pdf')?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
                                 </tr>
                                 <tr>
                                     <td style="vertical-align: middle;">Surat Keputusan Pengangkatan Sangadi</td>
-                                    <td align="center"><a href="" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
+                                    <td align="center"><a href="<?php echo base_url('assets/admin/file/boroko/SK PELANTIKAN SANGADI BOROKO.pdf')?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
                                 </tr>
                                 <tr>
                                     <td style="vertical-align: middle;">Surat Keputusan Aparat Desa</td>
-                                    <td align="center"><a href="" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
+                                    <td align="center"><a href="<?php echo base_url('assets/admin/file/boroko/SK APARAT DESA BOROKO.pdf')?>" target="_blank" class="site-button"><i class="fa fa-download"></i> Unduh</a></td>
                                 </tr>
                             </tbody>
                         </table>

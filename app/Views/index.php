@@ -36,19 +36,19 @@
         <li class="one_quarter">
           <article><a href="<?php echo base_url('home/struktur')?>"><i class="fas fa-star"></i></a>
             <h6 class="heading">STRUKTUR</h6>
+            <p>Penjabaran Struktur Dinas</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a href="<?php echo base_url('')?>"><i class="fas fa-book"></i></a>
+            <h6 class="heading">TUPOKSI</h6>
             <p>Menjabarkan Jabatan dan Tugas Pokok dan Fungsi</p>
           </article>
         </li>
         <li class="one_quarter">
-          <article><a href="<?php echo base_url('home/dpa')?>"><i class="fas fa-book"></i></a>
-            <h6 class="heading">DPA & RKA</h6>
-            <p>Perencanaan Program dan Kegiatan Dinas</p>
-          </article>
-        </li>
-        <li class="one_quarter">
-          <article><a href="<?php echo base_url('home/duk')?>"><i class="fas fa-table"></i></a>
-            <h6 class="heading">KEPEGAWAIAN</h6>
-            <p>Keadaan Pegawai PNS dan Non PNS</p>
+          <article><a href="<?php echo base_url('')?>"><i class="fas fa-table"></i></a>
+            <h6 class="heading">DESMININASI</h6>
+            <p>Bidang Sarana Komunikasi dan Desiminasi Informasi</p>
           </article>
         </li>
       </ul>
@@ -72,19 +72,19 @@
         <li class="one_quarter">
           <article><a href="<?php echo base_url('home/domain')?>"><i class="fas fa-server"></i></a>
             <h6 class="heading">DOMAIN</h6>
-            <p>Registrasi Domain desa.id dan sub Domain bolmutkab.go.id</p>
+            <p>Registrasi sub Domain bolmutkab.go.id dan Domain desa.id </p>
           </article>
         </li>
         <li class="one_quarter">
-          <article><a href="<?php echo base_url('home/layanan')?>"><i class="fas fa-heartbeat"></i></a>
-            <h6 class="heading">LAYANAN</h6>
-            <p>Kepuasan adalah harapan terbesar kami</p>
+          <article><a href="<?php echo base_url('seleksi')?>"><i class="fas fa-heartbeat"></i></a>
+            <h6 class="heading">SELEKSI</h6>
+            <p>Penerimaan Tenaga Ahli/Kontrak (IT)</p>
           </article>
         </li>
         <li class="one_quarter">
-          <article><a href="<?php echo base_url('home/aplikasi')?>"><i class="fas fa-hand-pointer"></i></a>
-            <h6 class="heading">APLIKASI</h6>
-            <p>Aplikasi yang di gunakan oleh Pemerintah Daerah</p>
+          <article><a href="<?php echo base_url('home/aptika')?>"><i class="fas fa-hand-pointer"></i></a>
+            <h6 class="heading">APTIKA</h6>
+            <p>Bidang Aplikasi Informatika, Persandian dan Statistik</p>
           </article>
         </li>
       </ul>

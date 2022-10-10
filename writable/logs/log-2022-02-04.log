@@ -1,0 +1,189 @@
+CRITICAL - 2022-02-04 10:44:51 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 10:45:10 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 10:46:59 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 10:50:15 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 13:21:10 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 15:21:28 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 15:21:38 --> Trying to get property 'id' of non-object
+#0 /var/www/diskominfo/app/Controllers/Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/diskom...', 129, Array)
+#1 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->pendaftaran()
+#2 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 15:22:02 --> Invalid file: backend\layout-admin\header.php
+#0 /var/www/diskominfo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend\\layout-...')
+#1 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend\\layout-...', Array, true)
+#2 /var/www/diskominfo/app/Controllers/Auth.php(739): view('backend\\layout-...', Array)
+#3 /var/www/diskominfo/app/Controllers/Auth.php(27): App\Controllers\Auth->renderPage('/auth\\index', Array, false)
+#4 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-04 15:22:19 --> Invalid file: backend\layout-admin\header.php
+#0 /var/www/diskominfo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend\\layout-...')
+#1 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend\\layout-...', Array, true)
+#2 /var/www/diskominfo/app/Controllers/Auth.php(739): view('backend\\layout-...', Array)
+#3 /var/www/diskominfo/app/Controllers/Auth.php(27): App\Controllers\Auth->renderPage('/auth\\index', Array, false)
+#4 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-04 15:23:16 --> Invalid file: backend\layout-admin\header.php
+#0 /var/www/diskominfo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend\\layout-...')
+#1 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend\\layout-...', Array, true)
+#2 /var/www/diskominfo/app/Controllers/Auth.php(739): view('backend\\layout-...', Array)
+#3 /var/www/diskominfo/app/Controllers/Auth.php(27): App\Controllers\Auth->renderPage('/auth\\index', Array, false)
+#4 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#5 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-04 15:25:43 --> Undefined index: search
+#0 /var/www/diskominfo/app/Models/IonAuthModel.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/diskom...', 566, Array)
+#1 /var/www/diskominfo/app/Models/IonAuthModel.php(590): App\Models\IonAuthModel->_get_datatables()
+#2 [internal function]: App\Models\IonAuthModel->get_datatables()
+#3 /var/www/diskominfo/app/Libraries/IonAuth.php(29): call_user_func_array(Array, Array)
+#4 /var/www/diskominfo/app/Controllers/Auth.php(431): App\Libraries\IonAuth->__call('get_datatables', Array)
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->ajax_list()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 15:26:53 --> Undefined index: search
+#0 /var/www/diskominfo/app/Models/IonAuthModel.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/diskom...', 566, Array)
+#1 /var/www/diskominfo/app/Models/IonAuthModel.php(590): App\Models\IonAuthModel->_get_datatables()
+#2 [internal function]: App\Models\IonAuthModel->get_datatables()
+#3 /var/www/diskominfo/app/Libraries/IonAuth.php(29): call_user_func_array(Array, Array)
+#4 /var/www/diskominfo/app/Controllers/Auth.php(431): App\Libraries\IonAuth->__call('get_datatables', Array)
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->ajax_list()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 15:27:04 --> Undefined index: search
+#0 /var/www/diskominfo/app/Models/IonAuthModel.php(566): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/diskom...', 566, Array)
+#1 /var/www/diskominfo/app/Models/IonAuthModel.php(590): App\Models\IonAuthModel->_get_datatables()
+#2 [internal function]: App\Models\IonAuthModel->get_datatables()
+#3 /var/www/diskominfo/app/Libraries/IonAuth.php(29): call_user_func_array(Array, Array)
+#4 /var/www/diskominfo/app/Controllers/Auth.php(431): App\Libraries\IonAuth->__call('get_datatables', Array)
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Auth->ajax_list()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 16:28:52 --> Undefined variable: persyaratan1
+#0 /var/www/diskominfo/app/Views/backend/layanan/admin_syarat.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/diskom...', 43, Array)
+#1 /var/www/diskominfo/system/View/View.php(214): include('/var/www/diskom...')
+#2 /var/www/diskominfo/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/diskominfo/system/Common.php(1092): CodeIgniter\View\View->render('backend/layanan...', Array, true)
+#4 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(219): view('backend/layanan...')
+#5 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->syarat()
+#6 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#7 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 20:30:29 --> The supplied file is not a supported image type.
+#0 /var/www/diskominfo/system/Images/Image.php(103): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+#1 /var/www/diskominfo/system/Images/Handlers/BaseHandler.php(150): CodeIgniter\Images\Image->getProperties(false)
+#2 /var/www/diskominfo/app/Models/IonAuthModel.php(1096): CodeIgniter\Images\Handlers\BaseHandler->withFile('/tmp/phpwGwFXO')
+#3 [internal function]: App\Models\IonAuthModel->upload_img(Object(CodeIgniter\HTTP\Files\UploadedFile), '1643977829_101f...', '', 0, 768, 1024)
+#4 /var/www/diskominfo/app/Libraries/IonAuth.php(29): call_user_func_array(Array, Array)
+#5 /var/www/diskominfo/app/Controllers/Backend/Pendaftaran.php(165): App\Libraries\IonAuth->__call('upload_img', Array)
+#6 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Backend\Pendaftaran->upload()
+#7 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendaftaran))
+#8 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-04 20:42:57 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 20:43:20 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 20:44:03 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 20:48:36 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 21:38:28 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 21:39:49 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 21:40:33 --> Too few arguments to function App\Controllers\Home::lihatPdf(), 1 passed in /var/www/diskominfo/system/CodeIgniter.php on line 802 and exactly 2 expected
+#0 /var/www/diskominfo/system/CodeIgniter.php(802): App\Controllers\Home->lihatPdf('img')
+#1 /var/www/diskominfo/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/diskominfo/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/diskominfo/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
